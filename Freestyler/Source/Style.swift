@@ -5,6 +5,7 @@ import UIKit
 public class Style<V: UIView> {
     public typealias Closure = (V) -> Void
     
+    /// Array of closures for this style.
     public let closures: [Closure]
     
     public convenience init(_ closure: Closure) {
@@ -21,7 +22,7 @@ public class Style<V: UIView> {
         }
     }
     
-    /** Applies style to view.*/
+    /** Applies style to view. Closures are called one by one in defined order. Returns the same view so you can chain calls. */
     public func applyTo(view: V) -> V {
         closures.forEach { $0(view) }
         return view
@@ -50,6 +51,11 @@ public class Style<V: UIView> {
         }
         return Style<U>(uClosures)
     }
+    
+    /** Combines styles (i.e. combines arrays of their closures) and returns resulting style. */
+    public static func combineStyles(first: Style<V>, _ second: Style<V>) -> Style<V> {
+        return Style<V>(first.closures + second.closures)
+    }
 }
 
 infix operator <~ { associativity left precedence 100 }
@@ -60,5 +66,5 @@ func <~ <V: UIView> (left: V, right: Style<V>) -> V {
 
 infix operator + { associativity left precedence 140 }
 func + <V: UIView> (left: Style<V>, right: Style<V>) -> Style<V> {
-    return Style<V>(left.closures + right.closures)
+    return Style<V>.combineStyles(left, right)
 }

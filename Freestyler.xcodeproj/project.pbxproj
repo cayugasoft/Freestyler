@@ -14,6 +14,7 @@
 		112C096A1D291CAB0050AEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C09681D291CAB0050AEA6 /* LaunchScreen.storyboard */; };
 		112C09751D291CAB0050AEA6 /* FreestylerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09741D291CAB0050AEA6 /* FreestylerTests.swift */; };
 		112C09811D291DC20050AEA6 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09801D291DC20050AEA6 /* Style.swift */; };
+		112C09831D2997E20050AEA6 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09821D2997E20050AEA6 /* ColorType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		112C09741D291CAB0050AEA6 /* FreestylerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreestylerTests.swift; sourceTree = "<group>"; };
 		112C09761D291CAB0050AEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112C09801D291DC20050AEA6 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		112C09821D2997E20050AEA6 /* ColorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				112C09801D291DC20050AEA6 /* Style.swift */,
+				112C09821D2997E20050AEA6 /* ColorType.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
 				112C09811D291DC20050AEA6 /* Style.swift in Sources */,
 				112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */,
+				112C09831D2997E20050AEA6 /* ColorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

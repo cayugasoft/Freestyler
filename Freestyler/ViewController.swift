@@ -8,11 +8,24 @@
 
 import UIKit
 
+enum Pallete: ColorType {
+    case Main, Secondary
+    
+    var color: UIColor {
+        switch self {
+        case .Main: return .redColor()
+        case .Secondary: return .greenColor()
+        }
+    }
+}
+
 class ViewController: UIViewController {
     @IBOutlet weak var one: UIButton!
     @IBOutlet weak var two: UIButton!
     @IBOutlet weak var three: UIButton!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
+    @IBOutlet weak var slider: UISlider!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,9 +36,7 @@ class ViewController: UIViewController {
             $0.backgroundColor = .yellowColor()
         }
         
-        let tint = Style<UIView> {
-            $0.tintColor = .redColor()
-        }
+        let tint = Pallete.Main.tintColor
         
         let totalStyle = roundCorners + background + tint
         let totalButtonStyle: Style<UIButton> = totalStyle.cast()
@@ -39,6 +50,9 @@ class ViewController: UIViewController {
         }.cast()
         
         two <~ greenTint
+        
+        segmentedControl <~ Pallete.Main.tintColor
+        slider <~ Pallete.Secondary.backgroundColor + Pallete.Main.tintColor.cast().cast().cast()
     }
 
     override func didReceiveMemoryWarning() {
