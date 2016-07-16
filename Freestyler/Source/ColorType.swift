@@ -18,4 +18,10 @@ public extension ColorType {
             $0.tintColor = self.color
         }
     }
+    
+    var barButtonItemTintColor: Style<UIBarButtonItem> {
+        return Style<UIBarButtonItem> {
+            $0.tintColor = self.color
+        }
+    }
 }

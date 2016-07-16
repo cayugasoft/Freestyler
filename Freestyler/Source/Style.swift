@@ -2,8 +2,8 @@ import UIKit
 
 
 /** Defines style for given `UIView` subclass. Style is made of 1 or several closures (see initializers), or from several other styles for this subclass. You can apply style to view using `applyTo(_:)` method or operator `<~`. */
-public class Style<V: UIView> {
-    public typealias Closure = (V) -> Void
+public class Style<S: Styleable> {
+    public typealias Closure = (S) -> Void
     
     /// Array of closures for this style.
     public let closures: [Closure]
@@ -12,59 +12,48 @@ public class Style<V: UIView> {
         self.init([closure])
     }
     
+    // i.e. T: UIView, S: UILabel
+    public convenience init<T: Styleable>(_ style: Style<T>) {
+        assert(S.self is T.Type, "You can't cast Style<\(T.self)> to Style<\(S.self)> because \(S.self) is not inherited from \(T.self).")
+        self.init(style.closures.map {
+            tClosure in
+            let sClosure: Closure = { s in
+                tClosure(s as! T)
+            }
+            
+            return sClosure
+        })
+    }
+    
     public init(_ closures: [Closure]) {
         self.closures = closures
     }
     
-    public init(styles: [Style<V>]) {
+    public init(styles: [Style<S>]) {
         self.closures = styles.reduce([Closure]()) { accumulator, style in
             return accumulator + style.closures
         }
     }
     
     /** Applies style to view. Closures are called one by one in defined order. Returns the same view so you can chain calls. */
-    public func applyTo(view: V) -> V {
-        closures.forEach { $0(view) }
-        return view
-    }
-    
-    private func castClosure<U: UIView>(closure: Closure) -> (U) -> Void {
-        guard U() is V else {
-            fatalError("Can't cast closure of type \(V.self) to closure of type \(U.self).")
-        }
-        
-        let uClosure = {
-            (u: U) -> Void in
-            let v = u as! V
-            closure(v)
-        }
-        return uClosure
-    }
-    
-    /** Upcasts given style to style for subclass. For example, if you have some `Style<UIView>`, you can cast it to `Style<UILabel>`. Note that **opposite is not true** and method will crash if you try to cast from `Style<UILabel>` to `Style<UIView>`. */
-    public func cast<U: UIView>() -> Style<U> {
-        typealias UClosure = (U) -> Void
-        var uClosures: [UClosure] = []
-        for vClosure in closures {
-            let uClosure = castClosure(vClosure)
-            uClosures.append(uClosure)
-        }
-        return Style<U>(uClosures)
+    public func applyTo(styleable: S) -> S {
+        closures.forEach { $0(styleable) }
+        return styleable
     }
     
     /** Combines styles (i.e. combines arrays of their closures) and returns resulting style. */
-    public static func combineStyles(first: Style<V>, _ second: Style<V>) -> Style<V> {
-        return Style<V>(first.closures + second.closures)
+    public static func combineStyles(first: Style<S>, _ second: Style<S>) -> Style<S> {
+        return Style<S>(first.closures + second.closures)
     }
 }
 
 infix operator <~ { associativity left precedence 100 }
-func <~ <V: UIView> (left: V, right: Style<V>) -> V {
+func <~ <V: Styleable> (left: V, right: Style<V>) -> V {
     right.applyTo(left)
     return left
 }
 
 infix operator + { associativity left precedence 140 }
-func + <V: UIView> (left: Style<V>, right: Style<V>) -> Style<V> {
+func + <V: Styleable> (left: Style<V>, right: Style<V>) -> Style<V> {
     return Style<V>.combineStyles(left, right)
 }
