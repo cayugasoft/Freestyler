@@ -49,6 +49,12 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="plm-vj-fAw">
                                 <rect key="frame" x="107" y="185" width="118" height="31"/>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axP-Ah-Fpw">
+                                <rect key="frame" x="29" y="103" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -65,6 +71,7 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="label" destination="axP-Ah-Fpw" id="BbJ-GR-Xee"/>
                         <outlet property="one" destination="mO6-0t-ZSu" id="08Q-xY-2NK"/>
                         <outlet property="segmentedControl" destination="NK2-LM-GhP" id="EL8-qe-fCU"/>
                         <outlet property="slider" destination="plm-vj-fAw" id="VJO-R4-v7O"/>
