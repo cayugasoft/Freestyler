@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum Pallete: ColorType {
+enum Palette: ColorType {
     case Main, Secondary
     
     var color: UIColor {
@@ -37,9 +37,10 @@ class ViewController: UIViewController {
             $0.backgroundColor = .yellowColor()
         }
 //
-        let tint = Pallete.Main.tint
+        let tint = Palette.Main.tint
 //
-        let totalStyle = roundCorners + background + tint
+        let totalStyleOld = roundCorners + background + tint + Palette.Main.label.text
+        let totalStyle: Style<UIView> = [roundCorners, background, tint]
         //let totalButtonStyle: Style<UIButton> = totalStyle
         
         [one, two, three].forEach {
@@ -60,9 +61,9 @@ class ViewController: UIViewController {
         }
         let labelStyle = Style<UILabel>(viewStyle)
 //        let v2Style = Style<UIView>(labelStyle)
-        segmentedControl <~ Pallete.Main.tint + Pallete.Secondary.background
-        label <~ Pallete.Main.label.text + Pallete.Secondary.background
-        label.textColor = UIColor.redColor()
+        segmentedControl <~ Palette.Main.tint + Palette.Secondary.background
+        label <~ [Palette.Main.label.text, Palette.Secondary.background]
+//        label.textColor = UIColor.redColor()
 //        navigationItem.leftBarButtonItems!.forEach {
 //            $0 <~ Pallete.Main.barButtonItemTintColor
 //        }

@@ -2,7 +2,7 @@ import UIKit
 
 
 /** Defines style for given `UIView` subclass. Style is made of 1 or several closures (see initializers), or from several other styles for this subclass. You can apply style to view using `applyTo(_:)` method or operator `<~`. */
-public class Style<S: Styleable> {
+public class Style<S: Styleable>: ArrayLiteralConvertible {
     public typealias Closure = (S) -> Void
     
     /// Array of closures for this style.
@@ -34,6 +34,25 @@ public class Style<S: Styleable> {
             return accumulator + style.closures
         }
     }
+    
+    public required convenience init(arrayLiteral elements: AnyObject...) {
+        let styles: [Style<S>] = elements.map { element in
+            guard let style = element as? Style else {
+                fatalError("Items of array literal must be of type Style")
+            }
+            let sStyle = Style<S>(style)
+            return sStyle
+        }
+        self.init(styles: styles)
+    }
+//    
+//    public typealias Element = S
+//    
+//    public required convenience init<T: Style>(arrayLiteral elements: T...) {
+//        self.init(styles: elements.map {
+//            tStyle in
+//            return Style<S>(tStyle) })
+//    }
     
     /** Applies style to view. Closures are called one by one in defined order. Returns the same view so you can chain calls. */
     public func applyTo(styleable: S) -> S {
