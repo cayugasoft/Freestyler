@@ -8,16 +8,16 @@
 
 import UIKit
 
-enum Palette: ColorType {
-    case Main, Secondary
-    
-    var color: UIColor {
-        switch self {
-        case .Main: return .redColor()
-        case .Secondary: return .greenColor()
-        }
-    }
-}
+//enum Palette: ColorType {
+//    case Main, Secondary
+//    
+//    var color: UIColor {
+//        switch self {
+//        case .Main: return .redColor()
+//        case .Secondary: return .greenColor()
+//        }
+//    }
+//}
 
 class ViewController: UIViewController {
     @IBOutlet weak var one: UIButton!
@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var slider: UISlider!
+    /*
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,7 +40,7 @@ class ViewController: UIViewController {
 //
         let tint = Palette.Main.tint
 //
-        let totalStyleOld = roundCorners + background + tint + Palette.Main.label.text
+        let totalStyleOld = roundCorners + background + tint// + Palette.Main.label.text
         let totalStyle: Style<UIView> = [roundCorners, background, tint]
         //let totalButtonStyle: Style<UIButton> = totalStyle
         
@@ -72,12 +73,43 @@ class ViewController: UIViewController {
 //            $0 <~ Pallete.Secondary.barButtonItemTintColor
 //        }
     }
+*/
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let roundCorners = Style {
+            let view: UIView = try typeChecker($0)
+            view.layer.cornerRadius = 5.0
+        }
+        
+
+        
+        let blackBackground = Style {
+            let view: UIView = try typeChecker($0)
+            view.backgroundColor = .blackColor()
+        }
+        
+        let labelStyle = Style {
+            let label: UILabel = try typeChecker($0)
+            label.textColor = .redColor()
+        }
+        
+        [one, two, three].forEach {
+            $0 <~ roundCorners + blackBackground
+        }
+        debugBehavior = .Crash
+        let x: Style = [roundCorners, blackBackground, labelStyle]
+        one <~ x
+        
     }
-
-
 }
 
+func typeChecker<X: Styleable>(styleable: Styleable) throws -> X {
+    guard let x = styleable as? X else {
+        throw StyleError.Error
+    }
+    return x
+}

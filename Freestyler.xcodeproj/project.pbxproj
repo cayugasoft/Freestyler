@@ -15,7 +15,6 @@
 		112C09751D291CAB0050AEA6 /* FreestylerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09741D291CAB0050AEA6 /* FreestylerTests.swift */; };
 		112C09811D291DC20050AEA6 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09801D291DC20050AEA6 /* Style.swift */; };
 		112C09831D2997E20050AEA6 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09821D2997E20050AEA6 /* ColorType.swift */; };
-		112C09851D29A42E0050AEA6 /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09841D29A42E0050AEA6 /* Styleable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105F2D6A1D4920EA00E6CD9C /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Source/Playground.playground; sourceTree = "<group>"; };
 		112C095C1D291CAB0050AEA6 /* Freestyler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freestyler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112C095F1D291CAB0050AEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112C09611D291CAB0050AEA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +41,6 @@
 		112C09761D291CAB0050AEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112C09801D291DC20050AEA6 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		112C09821D2997E20050AEA6 /* ColorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
-		112C09841D29A42E0050AEA6 /* Styleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +82,7 @@
 		112C095E1D291CAB0050AEA6 /* Freestyler */ = {
 			isa = PBXGroup;
 			children = (
+				105F2D6A1D4920EA00E6CD9C /* Playground.playground */,
 				112C097F1D291D860050AEA6 /* Source */,
 				112C095F1D291CAB0050AEA6 /* AppDelegate.swift */,
 				112C09611D291CAB0050AEA6 /* ViewController.swift */,
@@ -108,7 +108,6 @@
 			children = (
 				112C09801D291DC20050AEA6 /* Style.swift */,
 				112C09821D2997E20050AEA6 /* ColorType.swift */,
-				112C09841D29A42E0050AEA6 /* Styleable.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -214,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112C09851D29A42E0050AEA6 /* Styleable.swift in Sources */,
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
 				112C09811D291DC20050AEA6 /* Style.swift in Sources */,
 				112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */,
@@ -408,6 +406,7 @@
 				112C097B1D291CAB0050AEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		112C097C1D291CAB0050AEA6 /* Build configuration list for PBXNativeTarget "FreestylerTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +415,7 @@
 				112C097E1D291CAB0050AEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

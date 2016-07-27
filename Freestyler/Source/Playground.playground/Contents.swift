@@ -9,14 +9,6 @@ enum StyleDebugBehavior {
     case Ignore
 }
 
-enum StyleError: ErrorType, CustomStringConvertible {
-    case Error
-    
-    var description: String {
-        return ""
-    }
-}
-
 var debugBehavior = StyleDebugBehavior.Warning
 
 
@@ -28,7 +20,7 @@ extension UIView: Styleable {}
 extension UIBarItem: Styleable {}
 
 
-public protocol StyleType {
+protocol StyleType {
     init(closures: [StyleClosure])
     var closures: [StyleClosure] { get }
 }
@@ -67,19 +59,19 @@ public class Style: StyleType, ArrayLiteralConvertible {
     /// Array of closures for this style.
     public let closures: [StyleClosure]
     
-    public convenience init(_ closure: StyleClosure) {
-        self.init(closures: [closure])
+    public convenience init(_ closure: Closure) {
+        self.init([closure])
     }
     
-    public required init(closures: [StyleClosure]) {
+    public required init(closures: [Closure]) {
         self.closures = closures
     }
     
-    public required convenience init(arrayLiteral elements: StyleType...) {
+    public required init(arrayLiteral elements: StyleType...) {
         let allClosures: [StyleClosure] = elements.reduce([]) { accumulator, style in
             accumulator + style.closures
         }
-        self.init(closures: allClosures)
+        self.init(allClosures)
     }
 }
 
@@ -99,4 +91,4 @@ let s1 = Style { ($0 as! UIView).backgroundColor = .blackColor() }
 let s2 = [s1, s1, s1, s1]
 
 
-//print(StyleClosure is ((UIView) -> Void))
+print(StyleClosure is ((UIView) -> Void))
