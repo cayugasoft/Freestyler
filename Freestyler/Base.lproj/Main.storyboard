@@ -25,6 +25,11 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mO6-0t-ZSu">
                                         <rect key="frame" x="0.0" y="0.0" width="400" height="30"/>
                                         <state key="normal" title="One"/>
+                                        <connections>
+                                            <action selector="oneDown:" destination="BYZ-38-t0r" eventType="touchDown" id="n3o-lS-rDa"/>
+                                            <action selector="oneUp:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="TSL-a0-qop"/>
+                                            <action selector="oneUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c3B-uH-qDm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuI-ao-wtK">
                                         <rect key="frame" x="0.0" y="40" width="400" height="30"/>
@@ -50,7 +55,7 @@
                                 <rect key="frame" x="107" y="185" width="118" height="31"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axP-Ah-Fpw">
-                                <rect key="frame" x="29" y="103" width="42" height="21"/>
+                                <rect key="frame" x="20" y="92" width="71" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -71,6 +76,7 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="addButton" destination="OLe-lY-cFr" id="fDo-Wh-g02"/>
                         <outlet property="label" destination="axP-Ah-Fpw" id="BbJ-GR-Xee"/>
                         <outlet property="one" destination="mO6-0t-ZSu" id="08Q-xY-2NK"/>
                         <outlet property="segmentedControl" destination="NK2-LM-GhP" id="EL8-qe-fCU"/>

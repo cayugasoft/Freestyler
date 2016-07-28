@@ -31,6 +31,13 @@ extension UIView: Styleable {}
 extension UIBarItem: Styleable {}
 
 
+public func typeChecker<X: Styleable>(styleable: Styleable) throws -> X {
+    guard let x = styleable as? X else {
+        throw StyleError.WrongType(expected: X.self, actual: styleable.dynamicType)
+    }
+    return x
+}
+
 public protocol StyleType {
     init(name: String?, closures: [StyleClosure])
     var closures: [StyleClosure] { get }
@@ -52,7 +59,7 @@ extension StyleType {
                 switch debugBehavior {
                 case .Ignore: continue
                 case .Warning: messages.forEach { print($0) }
-                case .Crash: fatalError(messages.joinWithSeparator("\n"))
+                case .Crash: fatalError("\n" + messages.joinWithSeparator("\n") + "\n")
                 }
             }
         }

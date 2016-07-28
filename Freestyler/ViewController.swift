@@ -8,16 +8,17 @@
 
 import UIKit
 
-//enum Palette: ColorType {
-//    case Main, Secondary
-//    
-//    var color: UIColor {
-//        switch self {
-//        case .Main: return .redColor()
-//        case .Secondary: return .greenColor()
-//        }
-//    }
-//}
+enum Palette: ColorType {
+    case Main, Secondary
+    
+    var color: UIColor {
+        switch self {
+        case .Main: return .redColor()
+        case .Secondary: return .greenColor()
+        }
+    }
+}
+
 
 class ViewController: UIViewController {
     @IBOutlet weak var one: UIButton!
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var addButton: UIBarButtonItem!
     /*
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,42 +78,62 @@ class ViewController: UIViewController {
 */
     
 
+    @IBAction func oneDown(sender: AnyObject) {
+        
+        [self.one, self.two, self.three].forEach { button in
+            UIView.animateWithDuration(5) {
+                button.layer.shadowOpacity = 0.0
+                button.layer.shadowOffset = CGSizeZero
+            }
+        }
+        
+    }
+    
+    @IBAction func oneUp(sender: AnyObject) {
+        UIView.animateWithDuration(0.5) {
+            [self.one, self.two, self.three].forEach {
+                $0.layer.shadowOpacity = 1.0
+                $0.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        debugBehavior = .Crash
         
         let roundCorners = Style("Round Corners") {
             let view: UIView = try typeChecker($0)
-            view.layer.cornerRadius = 5.0
+            view.layer.cornerRadius = 10.0
         }
-        
 
-        
-        let blackBackground = Style("Black Background") {
+        let shadow = Style("Shadow") {
             let view: UIView = try typeChecker($0)
-            view.backgroundColor = .blackColor()
+            view.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
+            view.layer.shadowOpacity = 1.0
+            view.layer.shadowColor = UIColor.blackColor().CGColor
         }
-        
-        let labelStyle = Style("Red Text Color") {
-            let label: UILabel = try typeChecker($0)
-            label.textColor = .redColor()
-        }
-        
         
         
         [one, two, three].forEach {
-            $0 <~ roundCorners + blackBackground
+            $0 <~ roundCorners + Palette.Main.background + shadow
         }
-        debugBehavior = .Warning
-        let x: Style = [roundCorners, blackBackground, labelStyle]
-        one <~ x
-        segmentedControl <~ x
+        
+        slider <~ Palette.Secondary.tint
+        
+        let masksToBounds = Style("Masks To Bounds") {
+            let view: UIView = try typeChecker($0)
+            view.layer.masksToBounds = true
+        }
+        let center = Style("Center text align") {
+            let label: UILabel = try typeChecker($0)
+            label.textAlignment = .Center
+        }
+        
+        label <~ Palette.Secondary.background + roundCorners + masksToBounds + center
+        
+        addButton <~ Palette.Main.tint + Palette.Secondary.background
+
     }
 }
 
-func typeChecker<X: Styleable>(styleable: Styleable) throws -> X {
-    guard let x = styleable as? X else {
-        throw StyleError.WrongType(expected: X.self, actual: styleable.dynamicType)
-    }
-    return x
-}
