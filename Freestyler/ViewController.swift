@@ -80,36 +80,38 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let roundCorners = Style {
+        let roundCorners = Style("Round Corners") {
             let view: UIView = try typeChecker($0)
             view.layer.cornerRadius = 5.0
         }
         
 
         
-        let blackBackground = Style {
+        let blackBackground = Style("Black Background") {
             let view: UIView = try typeChecker($0)
             view.backgroundColor = .blackColor()
         }
         
-        let labelStyle = Style {
+        let labelStyle = Style("Red Text Color") {
             let label: UILabel = try typeChecker($0)
             label.textColor = .redColor()
         }
         
+        
+        
         [one, two, three].forEach {
             $0 <~ roundCorners + blackBackground
         }
-        debugBehavior = .Crash
+        debugBehavior = .Warning
         let x: Style = [roundCorners, blackBackground, labelStyle]
         one <~ x
-        
+        segmentedControl <~ x
     }
 }
 
 func typeChecker<X: Styleable>(styleable: Styleable) throws -> X {
     guard let x = styleable as? X else {
-        throw StyleError.Error
+        throw StyleError.WrongType(expected: X.self, actual: styleable.dynamicType)
     }
     return x
 }
