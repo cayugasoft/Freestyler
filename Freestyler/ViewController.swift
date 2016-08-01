@@ -119,6 +119,15 @@ class ViewController: UIViewController {
             $0 <~ roundCorners + Palette.Main.background + shadow
         }
         
+        let coolLabelStyle = Style {
+            let label: UILabel = try typeChecker($0)
+            label.textAlignment = .Right
+            label.textColor = Palette.Main.color
+            label.font = UIFont.systemFontOfSize(24.0, weight: 3.0)
+            label.shadowOffset = CGSize(width: 1.0, height: 1.0)
+            label.shadowColor = Palette.Secondary.color
+        }
+        
         slider <~ Palette.Secondary.tint
         
         let masksToBounds = Style("Masks To Bounds") {
@@ -130,9 +139,13 @@ class ViewController: UIViewController {
             label.textAlignment = .Center
         }
         
-        label <~ Palette.Secondary.background + roundCorners + masksToBounds + center
+        label <~ coolLabelStyle//Palette.Secondary.shadowLabel + Palette.Main.background + masksToBounds + center
+        addButton <~ Palette.Main.tint
         
-        addButton <~ Palette.Main.tint + Palette.Secondary.background
+        navigationItem.rightBarButtonItems!.forEach {
+            $0 <~ Palette.Secondary.tint
+        }
+//        addButton <~ Palette.Main.tint + Palette.Secondary.background
 
     }
 }

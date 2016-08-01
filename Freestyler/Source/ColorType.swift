@@ -1,36 +1,42 @@
 import UIKit
 
 
-public protocol ColorType {
+public protocol ColorType: CustomStringConvertible {
     var color: UIColor { get }
 }
 
-// MARK: UIView styles
-public extension ColorType {
-    public var tint: Style {
-        return Style("Tint color \(self.color)") {
-            guard let tintColorable = $0 as? TintColorable else {
-                throw StyleError.WrongType(expected: TintColorable.self, actual: $0.dynamicType)
-            }
-            
-            tintColorable.frs_setTintColor(self.color)
-        }
-    }
-    
-    public var background: Style {
-        return Style("Background color \(self.color)") {
-            let view: UIView = try typeChecker($0)
-            view.backgroundColor = self.color
-        }
-    }
 
-    public var text: Style {
-        return Style("Text color \(self.color)") {
-            let label: UILabel = try typeChecker($0)
-            label.textColor = self.color
-        }
+private extension CGFloat {
+    func toHex() -> String {
+//        return ""
+        let int = Int(255.0 * self)
+        return String(format: "%02x", int)
     }
 }
+
+
+extension ColorType {
+    public var description: String {
+        var red: CGFloat = 0
+        var green: CGFloat = 0
+        var blue: CGFloat = 0
+        var alpha: CGFloat = 0
+        
+        let success = color.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
+        guard success else {
+            return "--- can't convert color ---"
+        }
+        
+        let alphaString = (alpha == 1.0) ? "" : alpha.toHex()
+        
+        return "#" +
+            red.toHex() +
+            green.toHex() +
+            blue.toHex() +
+            alphaString
+    }
+}
+
 
 protocol TintColorable: Styleable {
     func frs_setTintColor(color: UIColor)

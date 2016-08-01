@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */; };
 		112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C095F1D291CAB0050AEA6 /* AppDelegate.swift */; };
 		112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09611D291CAB0050AEA6 /* ViewController.swift */; };
 		112C09651D291CAB0050AEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C09631D291CAB0050AEA6 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		105F2D6A1D4920EA00E6CD9C /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Source/Playground.playground; sourceTree = "<group>"; };
+		10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ColorType+Styles.swift"; sourceTree = "<group>"; };
 		112C095C1D291CAB0050AEA6 /* Freestyler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freestyler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112C095F1D291CAB0050AEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112C09611D291CAB0050AEA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10820D5B1D4FAE5B00A5524F /* ColorType+Styles */ = {
+			isa = PBXGroup;
+			children = (
+				10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */,
+			);
+			name = "ColorType+Styles";
+			sourceTree = "<group>";
+		};
 		112C09531D291CAB0050AEA6 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 			children = (
 				112C09801D291DC20050AEA6 /* Style.swift */,
 				112C09821D2997E20050AEA6 /* ColorType.swift */,
+				10820D5B1D4FAE5B00A5524F /* ColorType+Styles */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -214,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
+				10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */,
 				112C09811D291DC20050AEA6 /* Style.swift in Sources */,
 				112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */,
 				112C09831D2997E20050AEA6 /* ColorType.swift in Sources */,
