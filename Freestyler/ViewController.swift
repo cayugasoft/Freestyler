@@ -9,12 +9,24 @@
 import UIKit
 
 enum Palette: ColorType {
-    case Main, Secondary
+    case Main, Secondary, Third
     
     var color: UIColor {
         switch self {
         case .Main: return .redColor()
         case .Secondary: return .greenColor()
+        case .Third: return .yellowColor()
+        }
+    }
+}
+
+enum Typography: FontType {
+    case Main, Secondary
+    
+    var font: UIFont {
+        switch self {
+        case .Main: return UIFont(name: "AmericanTypewriter", size: 13.0)!
+        case .Secondary: return UIFont(name: "AvenirNextCondensed-UltraLight", size: 16.0)!
         }
     }
 }
@@ -139,7 +151,8 @@ class ViewController: UIViewController {
             label.textAlignment = .Center
         }
         
-        label <~ coolLabelStyle//Palette.Secondary.shadowLabel + Palette.Main.background + masksToBounds + center
+        label <~ coolLabelStyle + center//Palette.Secondary.shadowLabel + Palette.Main.background + masksToBounds + center
+        label <~ Typography.Secondary.labelFont + Palette.Third.background
         addButton <~ Palette.Main.tint
         
         navigationItem.rightBarButtonItems!.forEach {

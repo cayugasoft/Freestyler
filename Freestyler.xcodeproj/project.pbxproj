@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102DD52C1D4FB97900F444A3 /* Styler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD52B1D4FB97900F444A3 /* Styler.swift */; };
+		102DD52E1D4FBB7800F444A3 /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD52D1D4FBB7800F444A3 /* FontType.swift */; };
 		10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */; };
 		112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C095F1D291CAB0050AEA6 /* AppDelegate.swift */; };
 		112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09611D291CAB0050AEA6 /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102DD52B1D4FB97900F444A3 /* Styler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styler.swift; sourceTree = "<group>"; };
+		102DD52D1D4FBB7800F444A3 /* FontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
 		105F2D6A1D4920EA00E6CD9C /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Source/Playground.playground; sourceTree = "<group>"; };
 		10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ColorType+Styles.swift"; sourceTree = "<group>"; };
 		112C095C1D291CAB0050AEA6 /* Freestyler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freestyler.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		102DD52F1D4FBBB600F444A3 /* FontType+Styles */ = {
+			isa = PBXGroup;
+			children = (
+				102DD52D1D4FBB7800F444A3 /* FontType.swift */,
+			);
+			name = "FontType+Styles";
+			sourceTree = "<group>";
+		};
 		10820D5B1D4FAE5B00A5524F /* ColorType+Styles */ = {
 			isa = PBXGroup;
 			children = (
+				112C09821D2997E20050AEA6 /* ColorType.swift */,
 				10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */,
 			);
 			name = "ColorType+Styles";
@@ -117,8 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				112C09801D291DC20050AEA6 /* Style.swift */,
-				112C09821D2997E20050AEA6 /* ColorType.swift */,
+				102DD52B1D4FB97900F444A3 /* Styler.swift */,
 				10820D5B1D4FAE5B00A5524F /* ColorType+Styles */,
+				102DD52F1D4FBBB600F444A3 /* FontType+Styles */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -224,6 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102DD52C1D4FB97900F444A3 /* Styler.swift in Sources */,
+				102DD52E1D4FBB7800F444A3 /* FontType.swift in Sources */,
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
 				10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */,
 				112C09811D291DC20050AEA6 /* Style.swift in Sources */,
