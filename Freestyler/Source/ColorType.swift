@@ -8,7 +8,6 @@ public protocol ColorType: CustomStringConvertible {
 
 private extension CGFloat {
     func toHex() -> String {
-//        return ""
         let int = Int(255.0 * self)
         return String(format: "%02x", int)
     }

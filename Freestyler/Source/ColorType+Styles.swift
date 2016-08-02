@@ -28,7 +28,7 @@ public extension ColorType {
         }
     }
     
-    public var shadow: Style {
+    public var layerShadow: Style {
         return Style("Shadow color \(self)") {
             let view: UIView = try typeChecker($0)
             view.layer.shadowColor = self.color.CGColor
@@ -53,7 +53,7 @@ public extension ColorType {
         }
     }
     
-    public var shadowLabel: Style {
+    public var labelShadow: Style {
         return Style("Shadow text color \(self)") {
             let label: UILabel = try typeChecker($0)
             label.shadowColor = self.color

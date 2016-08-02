@@ -20,7 +20,7 @@ enum StyleError: ErrorType, CustomStringConvertible {
     }
 }
 
-var debugBehavior = StyleDebugBehavior.Warning
+var debugBehavior = StyleDebugBehavior.Crash
 
 
 public protocol Styleable {}
