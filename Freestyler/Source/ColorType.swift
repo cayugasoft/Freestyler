@@ -35,20 +35,3 @@ extension ColorType {
             alphaString
     }
 }
-
-
-protocol TintColorable: Styleable {
-    func frs_setTintColor(color: UIColor)
-}
-
-extension UIView: TintColorable {
-    func frs_setTintColor(color: UIColor) {
-        tintColor = color
-    }
-}
-
-extension UIBarButtonItem: TintColorable {
-    func frs_setTintColor(color: UIColor) {
-        tintColor = color
-    }
-}

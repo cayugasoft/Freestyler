@@ -11,15 +11,7 @@ import UIKit
 
 // MARK: UIView styles
 public extension ColorType {
-    public var tint: Style {
-        return Style("Tint color \(self)") {
-            guard let tintColorable = $0 as? TintColorable else {
-                throw StyleError.WrongType(expected: TintColorable.self, actual: $0.dynamicType)
-            }
-            
-            tintColorable.frs_setTintColor(self.color)
-        }
-    }
+    
     
     public var background: Style {
         return Style("Background color \(self)") {
