@@ -6,6 +6,7 @@ class BarTintColorableTests: XCTestCase {
     let navigationBar = UINavigationBar()
     let tabBar = UITabBar()
     let toolBar = UIToolbar()
+    let searchBar = UISearchBar()
     
     func testBarTintStyle() {
         navigationBar <~ DefaultPalette.A.barTint
@@ -16,5 +17,8 @@ class BarTintColorableTests: XCTestCase {
         
         toolBar <~ DefaultPalette.A.barTint
         XCTAssertEqual(toolBar.barTintColor, DefaultPalette.A.color)
+        
+        searchBar <~ DefaultPalette.A.barTint
+        XCTAssertEqual(searchBar.barTintColor, DefaultPalette.A.color)
     }
 }

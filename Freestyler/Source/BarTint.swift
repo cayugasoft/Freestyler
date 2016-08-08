@@ -22,7 +22,7 @@ public extension ColorType {
 }
 
 
-internal protocol BarTintColorable: _BarTintColorable {
+internal protocol BarTintColorable {
     func frs_setBarTintColor(color: UIColor)
 }
 
@@ -38,8 +38,8 @@ extension _BarTintColorable {
 }
 
 
-extension UINavigationBar: BarTintColorable {}
-extension UITabBar: BarTintColorable {}
-extension UIToolbar: BarTintColorable {}
-
+extension UINavigationBar: _BarTintColorable, BarTintColorable {}
+extension UITabBar: _BarTintColorable, BarTintColorable {}
+extension UIToolbar: _BarTintColorable, BarTintColorable {}
+extension UISearchBar: _BarTintColorable, BarTintColorable {}
 
