@@ -17,8 +17,21 @@ enum DefaultPalette: ColorType {
     var color: UIColor {
         switch self {
         case .A: return .blackColor()
-        case .B:
-            return .redColor()
+        case .B: return .redColor()
+        }
+    }
+}
+
+
+enum DefaultTypography: FontType {
+    case A
+    case B
+    
+    var font: UIFont {
+        let defaultFont = UIFont.systemFontOfSize(24.0)
+        switch self {
+        case .A: return UIFont(name: "AmericanTypewriter", size: 20.0) ?? defaultFont
+        case .B: return UIFont(name: "AppleSDGothicNeo-Regular", size: 14.0) ?? defaultFont
         }
     }
 }

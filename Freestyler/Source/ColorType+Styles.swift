@@ -29,26 +29,3 @@ public extension ColorType {
 }
 
 
-// MARK: UILabel styles
-public extension ColorType {
-    public var text: Style {
-        return Style("Text color \(self)") {
-            let label: UILabel = try typeChecker($0)
-            label.textColor = self.color
-        }
-    }
-    
-    public var highlightedText: Style {
-        return Style("Highlighted text color \(self)") {
-            let label: UILabel = try typeChecker($0)
-            label.highlightedTextColor = self.color
-        }
-    }
-    
-    public var labelShadow: Style {
-        return Style("Shadow text color \(self)") {
-            let label: UILabel = try typeChecker($0)
-            label.shadowColor = self.color
-        }
-    }
-}
