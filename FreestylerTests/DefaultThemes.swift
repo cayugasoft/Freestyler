@@ -13,11 +13,13 @@ import UIKit
 enum DefaultPalette: ColorType {
     case A
     case B
+    case C
     
     var color: UIColor {
         switch self {
-        case .A: return .blackColor()
+        case .A: return .greenColor()
         case .B: return .redColor()
+        case .C: return .yellowColor()
         }
     }
 }
