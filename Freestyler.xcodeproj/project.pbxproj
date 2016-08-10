@@ -22,6 +22,8 @@
 		118A190B1D5AE3A100613BA6 /* UISliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190A1D5AE3A100613BA6 /* UISliderTests.swift */; };
 		118A190D1D5AE68C00613BA6 /* UIPageControlStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */; };
 		118A190F1D5AE6FA00613BA6 /* UIPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190E1D5AE6FA00613BA6 /* UIPageControlTests.swift */; };
+		118A19111D5AEEF700613BA6 /* UIActivityIndicatorViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A19101D5AEEF700613BA6 /* UIActivityIndicatorViewStyles.swift */; };
+		118A19131D5AEF2900613BA6 /* UIActivityIndicatorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A19121D5AEF2900613BA6 /* UIActivityIndicatorViewTests.swift */; };
 		118BDC5B1D51292600ECC63F /* BarTintColorableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BDC5A1D51292600ECC63F /* BarTintColorableTests.swift */; };
 		118BDC5E1D512A2D00ECC63F /* BarTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BDC5D1D512A2D00ECC63F /* BarTint.swift */; };
 		118BDC601D512BAF00ECC63F /* DefaultThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BDC5F1D512BAF00ECC63F /* DefaultThemes.swift */; };
@@ -64,6 +66,8 @@
 		118A190A1D5AE3A100613BA6 /* UISliderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderTests.swift; sourceTree = "<group>"; };
 		118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControlStyles.swift; sourceTree = "<group>"; };
 		118A190E1D5AE6FA00613BA6 /* UIPageControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControlTests.swift; sourceTree = "<group>"; };
+		118A19101D5AEEF700613BA6 /* UIActivityIndicatorViewStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewStyles.swift; sourceTree = "<group>"; };
+		118A19121D5AEF2900613BA6 /* UIActivityIndicatorViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewTests.swift; sourceTree = "<group>"; };
 		118BDC5A1D51292600ECC63F /* BarTintColorableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTintColorableTests.swift; sourceTree = "<group>"; };
 		118BDC5D1D512A2D00ECC63F /* BarTint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTint.swift; sourceTree = "<group>"; };
 		118BDC5F1D512BAF00ECC63F /* DefaultThemes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultThemes.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 				118BDC611D512DFF00ECC63F /* UIProgressViewTests.swift */,
 				1195184B1D583D6F00A24481 /* UILabelTests.swift */,
 				118A190A1D5AE3A100613BA6 /* UISliderTests.swift */,
+				118A19121D5AEF2900613BA6 /* UIActivityIndicatorViewTests.swift */,
 				112C09761D291CAB0050AEA6 /* Info.plist */,
 				118A190E1D5AE6FA00613BA6 /* UIPageControlTests.swift */,
 			);
@@ -180,6 +185,7 @@
 				119518491D583D2E00A24481 /* UILabelStyles.swift */,
 				118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */,
 				118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */,
+				118A19101D5AEEF700613BA6 /* UIActivityIndicatorViewStyles.swift */,
 			);
 			name = DefaultStyles;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 				118BDC641D512E3200ECC63F /* UIProgressViewStyles.swift in Sources */,
 				102DD52C1D4FB97900F444A3 /* Styler.swift in Sources */,
 				119518481D58377E00A24481 /* Tint.swift in Sources */,
+				118A19111D5AEEF700613BA6 /* UIActivityIndicatorViewStyles.swift in Sources */,
 				1195184A1D583D2E00A24481 /* UILabelStyles.swift in Sources */,
 				102DD52E1D4FBB7800F444A3 /* FontType.swift in Sources */,
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
@@ -313,6 +320,7 @@
 				118BDC621D512DFF00ECC63F /* UIProgressViewTests.swift in Sources */,
 				118BDC601D512BAF00ECC63F /* DefaultThemes.swift in Sources */,
 				118BDC5B1D51292600ECC63F /* BarTintColorableTests.swift in Sources */,
+				118A19131D5AEF2900613BA6 /* UIActivityIndicatorViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
