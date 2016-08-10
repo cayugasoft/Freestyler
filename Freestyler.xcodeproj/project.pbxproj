@@ -20,6 +20,8 @@
 		112C09831D2997E20050AEA6 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09821D2997E20050AEA6 /* ColorType.swift */; };
 		118A19091D5AE2FB00613BA6 /* UISliderStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */; };
 		118A190B1D5AE3A100613BA6 /* UISliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190A1D5AE3A100613BA6 /* UISliderTests.swift */; };
+		118A190D1D5AE68C00613BA6 /* UIPageControlStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */; };
+		118A190F1D5AE6FA00613BA6 /* UIPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190E1D5AE6FA00613BA6 /* UIPageControlTests.swift */; };
 		118BDC5B1D51292600ECC63F /* BarTintColorableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BDC5A1D51292600ECC63F /* BarTintColorableTests.swift */; };
 		118BDC5E1D512A2D00ECC63F /* BarTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BDC5D1D512A2D00ECC63F /* BarTint.swift */; };
 		118BDC601D512BAF00ECC63F /* DefaultThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BDC5F1D512BAF00ECC63F /* DefaultThemes.swift */; };
@@ -60,6 +62,8 @@
 		112C09821D2997E20050AEA6 /* ColorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
 		118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderStyles.swift; sourceTree = "<group>"; };
 		118A190A1D5AE3A100613BA6 /* UISliderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderTests.swift; sourceTree = "<group>"; };
+		118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControlStyles.swift; sourceTree = "<group>"; };
+		118A190E1D5AE6FA00613BA6 /* UIPageControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControlTests.swift; sourceTree = "<group>"; };
 		118BDC5A1D51292600ECC63F /* BarTintColorableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTintColorableTests.swift; sourceTree = "<group>"; };
 		118BDC5D1D512A2D00ECC63F /* BarTint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTint.swift; sourceTree = "<group>"; };
 		118BDC5F1D512BAF00ECC63F /* DefaultThemes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultThemes.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 				1195184B1D583D6F00A24481 /* UILabelTests.swift */,
 				118A190A1D5AE3A100613BA6 /* UISliderTests.swift */,
 				112C09761D291CAB0050AEA6 /* Info.plist */,
+				118A190E1D5AE6FA00613BA6 /* UIPageControlTests.swift */,
 			);
 			path = FreestylerTests;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				118BDC631D512E3200ECC63F /* UIProgressViewStyles.swift */,
 				119518491D583D2E00A24481 /* UILabelStyles.swift */,
 				118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */,
+				118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */,
 			);
 			name = DefaultStyles;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
 				10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */,
 				112C09811D291DC20050AEA6 /* Style.swift in Sources */,
+				118A190D1D5AE68C00613BA6 /* UIPageControlStyles.swift in Sources */,
 				1195184E1D583F4F00A24481 /* Font.swift in Sources */,
 				118A19091D5AE2FB00613BA6 /* UISliderStyles.swift in Sources */,
 				118BDC5E1D512A2D00ECC63F /* BarTint.swift in Sources */,
@@ -301,6 +308,7 @@
 			files = (
 				118A190B1D5AE3A100613BA6 /* UISliderTests.swift in Sources */,
 				112C09751D291CAB0050AEA6 /* FreestylerTests.swift in Sources */,
+				118A190F1D5AE6FA00613BA6 /* UIPageControlTests.swift in Sources */,
 				1195184C1D583D6F00A24481 /* UILabelTests.swift in Sources */,
 				118BDC621D512DFF00ECC63F /* UIProgressViewTests.swift in Sources */,
 				118BDC601D512BAF00ECC63F /* DefaultThemes.swift in Sources */,

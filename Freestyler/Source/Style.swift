@@ -11,11 +11,14 @@ enum StyleDebugBehavior {
 
 enum StyleError: ErrorType, CustomStringConvertible {
     case WrongType(expected: Any.Type, actual: Any.Type)
+    case NotRespondingToSelector(selector: Selector)
     
     var description: String {
         switch self {
         case .WrongType(let expected, let actual):
             return "Expected to get Styleable of type \(expected) but actually get \(actual)."
+        case .NotRespondingToSelector(let selector):
+            return "Expected Styleable to respond to selector \(selector)."
         }        
     }
 }
