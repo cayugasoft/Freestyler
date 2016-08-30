@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import FreestylerCore
 
 public protocol FontType: CustomStringConvertible {
     var font: UIFont { get }

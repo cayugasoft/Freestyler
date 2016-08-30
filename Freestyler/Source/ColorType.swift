@@ -1,4 +1,5 @@
 import UIKit
+import FreestylerCore
 
 
 public protocol ColorType: CustomStringConvertible {

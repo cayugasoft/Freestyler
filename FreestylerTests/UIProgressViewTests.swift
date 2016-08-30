@@ -1,5 +1,6 @@
 import XCTest
 @testable import Freestyler
+import FreestylerCore
 
 
 class UIProgressViewTests: XCTestCase {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FreestylerCore
 
 
 public extension FontType {

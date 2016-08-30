@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FreestylerCore
+
 
 enum Palette: ColorType {
     case Main, Secondary, Third
