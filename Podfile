@@ -12,4 +12,8 @@ target 'FreestylerTests' do
 	shared_pods
 end
 
+target 'Freestyler_iOS' do
+	shared_pods
+end
+
 

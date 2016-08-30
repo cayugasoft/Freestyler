@@ -4,8 +4,6 @@ import FreestylerCore
 
 // MARK: UIView styles
 public extension ColorType {
-    
-    
     public var background: Style {
         return Style("Background color \(self)") {
             let view: UIView = try typeChecker($0)

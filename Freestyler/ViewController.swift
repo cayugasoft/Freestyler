@@ -130,7 +130,7 @@ class ViewController: UIViewController {
         
         
         [one, two, three].forEach {
-            $0 <~ roundCorners + Palette.Main.background + shadow
+            $0 <~ Palette.Main.background + shadow + UIButton.cornerRadius(10.0)
         }
         
         let coolLabelStyle = Style {
@@ -154,8 +154,8 @@ class ViewController: UIViewController {
         }
         
         label <~ coolLabelStyle + center//Palette.Secondary.shadowLabel + Palette.Main.background + masksToBounds + center
-        label <~ Typography.Secondary.labelFont + Palette.Third.background
-        addButton <~ Palette.Main.tint
+        label <~ UILabel.textColor(Palette.Secondary) + UILabel.textAlignment(.Left) + UILabel.backgroundColor(UIColor.blackColor())
+//        addButton <~ UIView.tintColor(Palette.Main)
         
         navigationItem.rightBarButtonItems!.forEach {
             $0 <~ Palette.Secondary.tint
@@ -164,4 +164,64 @@ class ViewController: UIViewController {
 
     }
 }
+
+
+extension UIColor: ColorType {
+    public var color: UIColor {
+        return self
+    }
+}
+
+class View {
+
+}
+
+class Label: View {
+    static func textColor(color: ColorType) -> Style {
+        return Style("Text color \(color)") {
+            (label: UILabel) in
+            label.textColor = color.color
+        }
+    }
+}
+
+extension UIView {
+    static func tintColor(color: ColorType) -> Style {
+        return Style("Tint color \(color)") {
+            (view: UIView) in
+            view.tintColor = color.color
+        }
+    }
+    
+    static func cornerRadius(radius: CGFloat) -> Style {
+        return Style("Corner radius \(radius)") {
+            (view: UIView) in
+            view.layer.cornerRadius = radius
+        }
+    }
+    
+    static func backgroundColor(color: ColorType) -> Style {
+        return Style("Background color \(color)") {
+            (view: UIView) in
+            view.backgroundColor = color.color
+        }
+    }
+}
+
+extension UILabel {
+    static func textColor(color: ColorType) -> Style {
+        return Style("Text color \(color)") {
+            (label: UILabel) in
+            label.textColor = color.color
+        }
+    }
+    
+    static func textAlignment(alignment: NSTextAlignment) -> Style {
+        return Style("Text alignment \(alignment)") {
+            (label: UILabel) in
+            label.textAlignment = alignment
+        }
+    }
+}
+
 
