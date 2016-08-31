@@ -1,0 +1,11 @@
+{
+	"UIView": [
+		{
+			"property": "transform",
+			"type": "CGAffineTransform",
+			"keypath": "", 
+			"style_name": "", 
+			"comment": "Changes `transform`  property of UIView instance"
+		}
+	]
+}
