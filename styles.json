@@ -2,10 +2,21 @@
 	"UIView": [
 		{
 			"property": "transform",
-			"type": "CGAffineTransform",
-			"keypath": "", 
-			"style_name": "", 
-			"comment": "Changes `transform`  property of UIView instance"
-		}
-	]
+			"type": "CGAffineTransform"
+		},
+        {
+            "property": "backgroundColor",
+            "type": "ColorType"
+        },
+        {
+            "property": "tintColor",
+            "type": "ColorType"
+        }
+	],
+    "UILabel": [
+        {
+            "property": "textColor",
+            "type": "ColorType"
+        }
+    ]
 }
