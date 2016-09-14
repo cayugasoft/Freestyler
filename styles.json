@@ -17,6 +17,54 @@
         {
             "property": "textColor",
             "type": "ColorType"
-        }
+        },
+        {
+        	"property": "font",
+        	"type": "FontType"
+        },
+        {
+        	"property": "textAlignment",
+        	"type": "NSTextAlignment"
+        },
+        {
+			"property": "lineBreakMode",
+			"type": "NSLineBreakMode"
+        },
+        {
+        	"property": "adjustsFontSizeToFitWidth",
+        	"type": "Bool"
+        },
+        {
+        	"property": "allowsDefaultTighteningForTruncation",
+        	"type": "Bool"
+        },
+        {
+        	"property": "baselineAdjustment",
+        	"type": "UIBaselineAdjustment"
+        },
+		{
+        	"property": "minimumScaleFactor",
+        	"type": "CGFloat"
+        },
+		{
+			"property": "numberOfLines",
+        	"type": "Int"
+		},
+		{
+			"property": "highlightedTextColor",
+        	"type": "ColorType"
+		},
+		{
+			"property": "shadowColor",
+        	"type": "ColorType"
+		},
+		{
+			"property": "shadowOffset",
+        	"type": "CGSize"
+		},
+		{
+			"property": "preferredMaxLayoutWidth",
+        	"type": "CGFloat"		
+		}
     ]
 }

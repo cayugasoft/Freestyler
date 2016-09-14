@@ -116,52 +116,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         debugBehavior = .Crash
         
-        let roundCorners = Style("Round Corners") {
-            let view: UIView = try typeChecker($0)
-            view.layer.cornerRadius = 10.0
-        }
-
-        let shadow = Style("Shadow") {
-            let view: UIView = try typeChecker($0)
-            view.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
-            view.layer.shadowOpacity = 1.0
-            view.layer.shadowColor = UIColor.blackColor().CGColor
-        }
-        
-        
-        [one, two, three].forEach {
-            $0 <~ Palette.Main.background + shadow + UIButton.cornerRadius(10.0)
-        }
-        
-        let coolLabelStyle = Style {
-            let label: UILabel = try typeChecker($0)
-            label.textAlignment = .Right
-            label.textColor = Palette.Main.color
-            label.font = UIFont.systemFontOfSize(24.0, weight: 3.0)
-            label.shadowOffset = CGSize(width: 1.0, height: 1.0)
-            label.shadowColor = Palette.Secondary.color
-        }
-        
-        slider <~ Palette.Secondary.tint
-        
-        let masksToBounds = Style("Masks To Bounds") {
-            let view: UIView = try typeChecker($0)
-            view.layer.masksToBounds = true
-        }
-        let center = Style("Center text align") {
-            let label: UILabel = try typeChecker($0)
-            label.textAlignment = .Center
-        }
-        
-        label <~ coolLabelStyle + center//Palette.Secondary.shadowLabel + Palette.Main.background + masksToBounds + center
-        label <~ UILabel.textColor(Palette.Secondary) + UILabel.textAlignment(.Left) + UILabel.backgroundColor(UIColor.blackColor())
-//        addButton <~ UIView.tintColor(Palette.Main)
-        
-        navigationItem.rightBarButtonItems!.forEach {
-            $0 <~ Palette.Secondary.tint
-        }
-//        addButton <~ Palette.Main.tint + Palette.Secondary.background
-
+        let labelStyle = UILabel.textAlignment(.Center) + UILabel.textColor(Palette.Main) + UILabel.tintColor(Palette.Third)
+        label <~ labelStyle
     }
 }
 

@@ -31,6 +31,7 @@
 		1195184A1D583D2E00A24481 /* UILabelStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119518491D583D2E00A24481 /* UILabelStyles.swift */; };
 		1195184C1D583D6F00A24481 /* UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195184B1D583D6F00A24481 /* UILabelTests.swift */; };
 		1195184E1D583F4F00A24481 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195184D1D583F4F00A24481 /* Font.swift */; };
+		11F034781D889CC100F3DE7D /* GeneratedStyles in Resources */ = {isa = PBXBuildFile; fileRef = 11F034771D889CC100F3DE7D /* GeneratedStyles */; };
 		1CD39B62BDCE664A48B219A4 /* Pods_FreestylerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E99FA718143EE1A6D3F2A8 /* Pods_FreestylerTests.framework */; };
 		6EB31044C223959FA4E1B5AB /* Pods_Freestyler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2377A79C1C757D3E83E57 /* Pods_Freestyler.framework */; };
 /* End PBXBuildFile section */
@@ -89,6 +90,7 @@
 		119518491D583D2E00A24481 /* UILabelStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelStyles.swift; sourceTree = "<group>"; };
 		1195184B1D583D6F00A24481 /* UILabelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelTests.swift; sourceTree = "<group>"; };
 		1195184D1D583F4F00A24481 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		11F034771D889CC100F3DE7D /* GeneratedStyles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GeneratedStyles; sourceTree = SOURCE_ROOT; };
 		149C3DE625FAEBE4D4C7494E /* Pods-Freestyler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freestyler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freestyler/Pods-Freestyler.debug.xcconfig"; sourceTree = "<group>"; };
 		28D2377A79C1C757D3E83E57 /* Pods_Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freestyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2A2618BEAA81E959A92AB5 /* Pods-FreestylerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestylerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreestylerTests/Pods-FreestylerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		112C095E1D291CAB0050AEA6 /* Freestyler */ = {
 			isa = PBXGroup;
 			children = (
+				11F034771D889CC100F3DE7D /* GeneratedStyles */,
 				112C097F1D291D860050AEA6 /* Source */,
 				112C095F1D291CAB0050AEA6 /* AppDelegate.swift */,
 				112C09611D291CAB0050AEA6 /* ViewController.swift */,
@@ -335,6 +338,7 @@
 			files = (
 				112C096A1D291CAB0050AEA6 /* LaunchScreen.storyboard in Resources */,
 				112C09671D291CAB0050AEA6 /* Assets.xcassets in Resources */,
+				11F034781D889CC100F3DE7D /* GeneratedStyles in Resources */,
 				112C09651D291CAB0050AEA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -58,7 +58,7 @@ end
 
 def generate_extension(class_name, styles)
     extension = <<-EXTENSION
-extension #{class_name} {
+public extension #{class_name} {
 #{styles.map { |s| generate_swift_style(class_name, s["keypath"], s["property"], s["type"], s["style_name"], s["comment"]).margin(4) }.join("\n")}}
 EXTENSION
     extension
