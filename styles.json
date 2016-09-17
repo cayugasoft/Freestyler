@@ -97,5 +97,75 @@
 			"property": "titleTextAttributes",
 			"type": "[String: AnyObject]?"
 		}
+	],
+	"UIProgressView": [
+		{
+			"property": "progressViewStyle",
+			"type": "UIProgressViewStyle"
+		},
+		{
+			"property": "progressTintColor",
+			"type": "ColorType"
+		},
+		{
+			"property": "progressImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "trackTintColor",
+			"type": "ColorType"
+		},
+		{
+			"property": "trackImage",
+			"type": "UIImage?"
+		}
+	],
+	"UITabBar": [
+		{
+			"property": "barStyle",
+			"type": "UIBarStyle"
+		},
+		{
+			"property": "translucent",
+			"type": "Bool"
+		},
+		{
+			"property": "barTintColor",
+			"type": "ColorType"
+		},
+		{
+			"property": "itemPositioning",
+			"type": "UITabBarItemPositioning"
+		},
+		{
+			"property": "itemSpacing",
+			"type": "CGFloat"
+		},
+		{
+			"property": "itemWidth",
+			"type": "CGFloat"
+		},
+		{
+			"property": "backgroundImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "shadowImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "selectionIndicatorImage",
+			"type": "UIImage?"
+		}
+	],
+	"UIToolbar": [
+	],
+	"UITableView": [
+	],
+	"UISlider": [
+	],
+	"UIActivityIndicatorView": [
+	],
+	"UIPageControl": [
 	]
 }

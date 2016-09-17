@@ -122,6 +122,12 @@ class ViewController: UIViewController {
         let nb = navigationController!.navigationBar
         nb <~ UINavigationBar.barTintColor(Palette.Main)
         
+        let progress = UIProgressView()
+        progress
+            <~ UIProgressView.progressTintColor(Palette.Main)
+        
+        let tabbar = UITabBar()
+        tabbar <~ UITabBar.backgroundImage(UIImage()) + UITabBar.barStyle(.Black)
 //        nb <~ UINavigationBar.isTranslucent(true)
 //        nb.backIndicatorImage
     }
