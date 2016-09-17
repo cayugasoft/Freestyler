@@ -66,5 +66,36 @@
 			"property": "preferredMaxLayoutWidth",
         	"type": "CGFloat"		
 		}
-    ]
+    ],
+     
+	"UINavigationBar": [
+		{
+			"property": "backIndicatorImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "backIndicatorTransitionMaskImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "barStyle",
+			"type": "UIBarStyle"		
+		},
+		{
+			"property": "barTintColor",
+			"type": "ColorType"		
+		},
+		{
+			"property": "shadowImage",
+			"type": "UIImage?"		
+		},
+		{
+			"property": "translucent",
+			"type": "Bool"
+		},
+		{
+			"property": "titleTextAttributes",
+			"type": "[String: AnyObject]?"
+		}
+	]
 }

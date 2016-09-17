@@ -118,6 +118,12 @@ class ViewController: UIViewController {
         
         let labelStyle = UILabel.textAlignment(.Center) + UILabel.textColor(Palette.Main) + UILabel.tintColor(Palette.Third)
         label <~ labelStyle
+    
+        let nb = navigationController!.navigationBar
+        nb <~ UINavigationBar.barTintColor(Palette.Main)
+        
+//        nb <~ UINavigationBar.isTranslucent(true)
+//        nb.backIndicatorImage
     }
 }
 
@@ -140,7 +146,7 @@ class Label: View {
         }
     }
 }
-
+/*
 extension UIView {
     static func tintColor(color: ColorType) -> Style {
         return Style("Tint color \(color)") {
@@ -181,3 +187,4 @@ extension UILabel {
 }
 
 
+*/

@@ -16,6 +16,9 @@
 		112C096A1D291CAB0050AEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C09681D291CAB0050AEA6 /* LaunchScreen.storyboard */; };
 		112C09751D291CAB0050AEA6 /* FreestylerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09741D291CAB0050AEA6 /* FreestylerTests.swift */; };
 		112C09831D2997E20050AEA6 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09821D2997E20050AEA6 /* ColorType.swift */; };
+		1178D4531D8DE330004AB786 /* UILabel+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D4501D8DE330004AB786 /* UILabel+Styles.swift */; };
+		1178D4541D8DE330004AB786 /* UINavigationBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D4511D8DE330004AB786 /* UINavigationBar+Styles.swift */; };
+		1178D4551D8DE330004AB786 /* UIView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D4521D8DE330004AB786 /* UIView+Styles.swift */; };
 		118A19091D5AE2FB00613BA6 /* UISliderStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */; };
 		118A190B1D5AE3A100613BA6 /* UISliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190A1D5AE3A100613BA6 /* UISliderTests.swift */; };
 		118A190D1D5AE68C00613BA6 /* UIPageControlStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */; };
@@ -31,7 +34,6 @@
 		1195184A1D583D2E00A24481 /* UILabelStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119518491D583D2E00A24481 /* UILabelStyles.swift */; };
 		1195184C1D583D6F00A24481 /* UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195184B1D583D6F00A24481 /* UILabelTests.swift */; };
 		1195184E1D583F4F00A24481 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195184D1D583F4F00A24481 /* Font.swift */; };
-		11F034781D889CC100F3DE7D /* GeneratedStyles in Resources */ = {isa = PBXBuildFile; fileRef = 11F034771D889CC100F3DE7D /* GeneratedStyles */; };
 		1CD39B62BDCE664A48B219A4 /* Pods_FreestylerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E99FA718143EE1A6D3F2A8 /* Pods_FreestylerTests.framework */; };
 		6EB31044C223959FA4E1B5AB /* Pods_Freestyler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2377A79C1C757D3E83E57 /* Pods_Freestyler.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,9 @@
 		112C09741D291CAB0050AEA6 /* FreestylerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreestylerTests.swift; sourceTree = "<group>"; };
 		112C09761D291CAB0050AEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112C09821D2997E20050AEA6 /* ColorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		1178D4501D8DE330004AB786 /* UILabel+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Styles.swift"; sourceTree = "<group>"; };
+		1178D4511D8DE330004AB786 /* UINavigationBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Styles.swift"; sourceTree = "<group>"; };
+		1178D4521D8DE330004AB786 /* UIView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styles.swift"; sourceTree = "<group>"; };
 		118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderStyles.swift; sourceTree = "<group>"; };
 		118A190A1D5AE3A100613BA6 /* UISliderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderTests.swift; sourceTree = "<group>"; };
 		118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControlStyles.swift; sourceTree = "<group>"; };
@@ -90,7 +95,6 @@
 		119518491D583D2E00A24481 /* UILabelStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelStyles.swift; sourceTree = "<group>"; };
 		1195184B1D583D6F00A24481 /* UILabelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelTests.swift; sourceTree = "<group>"; };
 		1195184D1D583F4F00A24481 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		11F034771D889CC100F3DE7D /* GeneratedStyles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GeneratedStyles; sourceTree = SOURCE_ROOT; };
 		149C3DE625FAEBE4D4C7494E /* Pods-Freestyler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freestyler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freestyler/Pods-Freestyler.debug.xcconfig"; sourceTree = "<group>"; };
 		28D2377A79C1C757D3E83E57 /* Pods_Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freestyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2A2618BEAA81E959A92AB5 /* Pods-FreestylerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestylerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreestylerTests/Pods-FreestylerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,7 +176,7 @@
 		112C095E1D291CAB0050AEA6 /* Freestyler */ = {
 			isa = PBXGroup;
 			children = (
-				11F034771D889CC100F3DE7D /* GeneratedStyles */,
+				1178D44F1D8DE330004AB786 /* GeneratedStyles */,
 				112C097F1D291D860050AEA6 /* Source */,
 				112C095F1D291CAB0050AEA6 /* AppDelegate.swift */,
 				112C09611D291CAB0050AEA6 /* ViewController.swift */,
@@ -209,6 +213,16 @@
 			);
 			path = Source;
 			sourceTree = "<group>";
+		};
+		1178D44F1D8DE330004AB786 /* GeneratedStyles */ = {
+			isa = PBXGroup;
+			children = (
+				1178D4501D8DE330004AB786 /* UILabel+Styles.swift */,
+				1178D4511D8DE330004AB786 /* UINavigationBar+Styles.swift */,
+				1178D4521D8DE330004AB786 /* UIView+Styles.swift */,
+			);
+			path = GeneratedStyles;
+			sourceTree = SOURCE_ROOT;
 		};
 		118BDC5C1D512A0400ECC63F /* DefaultStyles */ = {
 			isa = PBXGroup;
@@ -338,7 +352,6 @@
 			files = (
 				112C096A1D291CAB0050AEA6 /* LaunchScreen.storyboard in Resources */,
 				112C09671D291CAB0050AEA6 /* Assets.xcassets in Resources */,
-				11F034781D889CC100F3DE7D /* GeneratedStyles in Resources */,
 				112C09651D291CAB0050AEA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,9 +469,12 @@
 				1195184A1D583D2E00A24481 /* UILabelStyles.swift in Sources */,
 				102DD52E1D4FBB7800F444A3 /* FontType.swift in Sources */,
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
+				1178D4551D8DE330004AB786 /* UIView+Styles.swift in Sources */,
 				10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */,
 				118A190D1D5AE68C00613BA6 /* UIPageControlStyles.swift in Sources */,
+				1178D4531D8DE330004AB786 /* UILabel+Styles.swift in Sources */,
 				1195184E1D583F4F00A24481 /* Font.swift in Sources */,
+				1178D4541D8DE330004AB786 /* UINavigationBar+Styles.swift in Sources */,
 				118A19091D5AE2FB00613BA6 /* UISliderStyles.swift in Sources */,
 				118BDC5E1D512A2D00ECC63F /* BarTint.swift in Sources */,
 				112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */,
