@@ -161,6 +161,34 @@
 	"UIToolbar": [
 	],
 	"UITableView": [
+        {
+            "property": "rowHeight",
+            "type": "CGFloat"
+        },
+        {
+            "property": "separatorStyle",
+            "type": "UITableViewCellSeparatorStyle"
+        },
+        {
+            "property": "separatorColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "separatorEffect",
+            "type": "UIVisualEffect?"
+        },
+        {
+            "property": "backgroundView",
+            "type": "UIView?" 
+        },
+        {
+            "property": "separatorInset",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "cellLayoutMarginsFollowReadableWidth",
+            "type": "Bool"
+        }
 	],
 	"UISlider": [
 	],
