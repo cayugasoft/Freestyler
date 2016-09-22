@@ -35,6 +35,7 @@ enum Typography: FontType {
 
 
 class ViewController: UIViewController {
+    @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var one: UIButton!
     @IBOutlet weak var two: UIButton!
     @IBOutlet weak var three: UIButton!
@@ -128,8 +129,7 @@ class ViewController: UIViewController {
         
         let tabbar = UITabBar()
         tabbar <~ UITabBar.backgroundImage(UIImage()) + UITabBar.barStyle(.Black)
-//        nb <~ UINavigationBar.isTranslucent(true)
-//        nb.backIndicatorImage
+        textField <~ UITextField.borderStyle(.Line) + UITextField.placeholder("blablabla") + UITextField.font(Typography.Main) + UITextField.textColor(Palette.Third)
     }
 }
 

@@ -60,6 +60,11 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="857-Yx-UZl">
+                                <rect key="frame" x="319" y="138" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -81,6 +86,7 @@
                         <outlet property="one" destination="mO6-0t-ZSu" id="08Q-xY-2NK"/>
                         <outlet property="segmentedControl" destination="NK2-LM-GhP" id="EL8-qe-fCU"/>
                         <outlet property="slider" destination="plm-vj-fAw" id="VJO-R4-v7O"/>
+                        <outlet property="textField" destination="857-Yx-UZl" id="GLK-ll-mFc"/>
                         <outlet property="three" destination="AVQ-rN-Vz2" id="Fee-bG-ZRQ"/>
                         <outlet property="two" destination="LuI-ao-wtK" id="JNx-ZD-XOt"/>
                     </connections>

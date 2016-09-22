@@ -5,5 +5,5 @@ import FreestylerCore
 
 
 
-public extension UISlider {
+public extension UIStepper {
 }

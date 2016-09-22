@@ -9,6 +9,27 @@
 /* Begin PBXBuildFile section */
 		102DD52E1D4FBB7800F444A3 /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD52D1D4FBB7800F444A3 /* FontType.swift */; };
 		10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */; };
+		10A9E9461D940D9100330BE0 /* UIActivityIndicatorView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9311D940D9100330BE0 /* UIActivityIndicatorView+Styles.swift */; };
+		10A9E9471D940D9100330BE0 /* UIButton+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9321D940D9100330BE0 /* UIButton+Styles.swift */; };
+		10A9E9481D940D9100330BE0 /* UICollectionView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9331D940D9100330BE0 /* UICollectionView+Styles.swift */; };
+		10A9E9491D940D9100330BE0 /* UICollectionViewCell+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9341D940D9100330BE0 /* UICollectionViewCell+Styles.swift */; };
+		10A9E94A1D940D9100330BE0 /* UILabel+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9351D940D9100330BE0 /* UILabel+Styles.swift */; };
+		10A9E94B1D940D9100330BE0 /* UINavigationBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9361D940D9100330BE0 /* UINavigationBar+Styles.swift */; };
+		10A9E94C1D940D9100330BE0 /* UIPageControl+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9371D940D9100330BE0 /* UIPageControl+Styles.swift */; };
+		10A9E94D1D940D9100330BE0 /* UIProgressView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9381D940D9100330BE0 /* UIProgressView+Styles.swift */; };
+		10A9E94E1D940D9100330BE0 /* UIScrollView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9391D940D9100330BE0 /* UIScrollView+Styles.swift */; };
+		10A9E94F1D940D9100330BE0 /* UISearchBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E93A1D940D9100330BE0 /* UISearchBar+Styles.swift */; };
+		10A9E9501D940D9100330BE0 /* UISegmentedControl+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E93B1D940D9100330BE0 /* UISegmentedControl+Styles.swift */; };
+		10A9E9511D940D9100330BE0 /* UISlider+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E93C1D940D9100330BE0 /* UISlider+Styles.swift */; };
+		10A9E9521D940D9100330BE0 /* UIStepper+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E93D1D940D9100330BE0 /* UIStepper+Styles.swift */; };
+		10A9E9531D940D9100330BE0 /* UISwitch+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E93E1D940D9100330BE0 /* UISwitch+Styles.swift */; };
+		10A9E9541D940D9100330BE0 /* UITabBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E93F1D940D9100330BE0 /* UITabBar+Styles.swift */; };
+		10A9E9551D940D9100330BE0 /* UITableView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9401D940D9100330BE0 /* UITableView+Styles.swift */; };
+		10A9E9561D940D9100330BE0 /* UITableViewCell+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9411D940D9100330BE0 /* UITableViewCell+Styles.swift */; };
+		10A9E9571D940D9100330BE0 /* UITextField+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9421D940D9100330BE0 /* UITextField+Styles.swift */; };
+		10A9E9581D940D9100330BE0 /* UITextView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9431D940D9100330BE0 /* UITextView+Styles.swift */; };
+		10A9E9591D940D9100330BE0 /* UIToolbar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9441D940D9100330BE0 /* UIToolbar+Styles.swift */; };
+		10A9E95A1D940D9100330BE0 /* UIView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9E9451D940D9100330BE0 /* UIView+Styles.swift */; };
 		112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C095F1D291CAB0050AEA6 /* AppDelegate.swift */; };
 		112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09611D291CAB0050AEA6 /* ViewController.swift */; };
 		112C09651D291CAB0050AEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C09631D291CAB0050AEA6 /* Main.storyboard */; };
@@ -16,16 +37,6 @@
 		112C096A1D291CAB0050AEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C09681D291CAB0050AEA6 /* LaunchScreen.storyboard */; };
 		112C09751D291CAB0050AEA6 /* FreestylerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09741D291CAB0050AEA6 /* FreestylerTests.swift */; };
 		112C09831D2997E20050AEA6 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C09821D2997E20050AEA6 /* ColorType.swift */; };
-		1178D4801D8DED19004AB786 /* UIActivityIndicatorView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D4761D8DED19004AB786 /* UIActivityIndicatorView+Styles.swift */; };
-		1178D4811D8DED19004AB786 /* UILabel+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D4771D8DED19004AB786 /* UILabel+Styles.swift */; };
-		1178D4821D8DED19004AB786 /* UINavigationBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D4781D8DED19004AB786 /* UINavigationBar+Styles.swift */; };
-		1178D4831D8DED19004AB786 /* UIPageControl+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D4791D8DED19004AB786 /* UIPageControl+Styles.swift */; };
-		1178D4841D8DED19004AB786 /* UIProgressView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D47A1D8DED19004AB786 /* UIProgressView+Styles.swift */; };
-		1178D4851D8DED19004AB786 /* UISlider+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D47B1D8DED19004AB786 /* UISlider+Styles.swift */; };
-		1178D4861D8DED19004AB786 /* UITabBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D47C1D8DED19004AB786 /* UITabBar+Styles.swift */; };
-		1178D4871D8DED19004AB786 /* UITableView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D47D1D8DED19004AB786 /* UITableView+Styles.swift */; };
-		1178D4881D8DED19004AB786 /* UIToolbar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D47E1D8DED19004AB786 /* UIToolbar+Styles.swift */; };
-		1178D4891D8DED19004AB786 /* UIView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178D47F1D8DED19004AB786 /* UIView+Styles.swift */; };
 		118A19091D5AE2FB00613BA6 /* UISliderStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */; };
 		118A190B1D5AE3A100613BA6 /* UISliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190A1D5AE3A100613BA6 /* UISliderTests.swift */; };
 		118A190D1D5AE68C00613BA6 /* UIPageControlStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */; };
@@ -73,6 +84,27 @@
 		105D9B5D1D75B855007FA40C /* Freestyler_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Freestyler_iOS.h; sourceTree = "<group>"; };
 		105D9B5F1D75B855007FA40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10820D5C1D4FAE8B00A5524F /* ColorType+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ColorType+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9311D940D9100330BE0 /* UIActivityIndicatorView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9321D940D9100330BE0 /* UIButton+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9331D940D9100330BE0 /* UICollectionView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9341D940D9100330BE0 /* UICollectionViewCell+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9351D940D9100330BE0 /* UILabel+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9361D940D9100330BE0 /* UINavigationBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9371D940D9100330BE0 /* UIPageControl+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9381D940D9100330BE0 /* UIProgressView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9391D940D9100330BE0 /* UIScrollView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Styles.swift"; sourceTree = "<group>"; };
+		10A9E93A1D940D9100330BE0 /* UISearchBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Styles.swift"; sourceTree = "<group>"; };
+		10A9E93B1D940D9100330BE0 /* UISegmentedControl+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Styles.swift"; sourceTree = "<group>"; };
+		10A9E93C1D940D9100330BE0 /* UISlider+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Styles.swift"; sourceTree = "<group>"; };
+		10A9E93D1D940D9100330BE0 /* UIStepper+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStepper+Styles.swift"; sourceTree = "<group>"; };
+		10A9E93E1D940D9100330BE0 /* UISwitch+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Styles.swift"; sourceTree = "<group>"; };
+		10A9E93F1D940D9100330BE0 /* UITabBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9401D940D9100330BE0 /* UITableView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9411D940D9100330BE0 /* UITableViewCell+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9421D940D9100330BE0 /* UITextField+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9431D940D9100330BE0 /* UITextView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9441D940D9100330BE0 /* UIToolbar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Styles.swift"; sourceTree = "<group>"; };
+		10A9E9451D940D9100330BE0 /* UIView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styles.swift"; sourceTree = "<group>"; };
 		112C095C1D291CAB0050AEA6 /* Freestyler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freestyler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112C095F1D291CAB0050AEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112C09611D291CAB0050AEA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,16 +116,6 @@
 		112C09741D291CAB0050AEA6 /* FreestylerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreestylerTests.swift; sourceTree = "<group>"; };
 		112C09761D291CAB0050AEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112C09821D2997E20050AEA6 /* ColorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
-		1178D4761D8DED19004AB786 /* UIActivityIndicatorView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Styles.swift"; sourceTree = "<group>"; };
-		1178D4771D8DED19004AB786 /* UILabel+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Styles.swift"; sourceTree = "<group>"; };
-		1178D4781D8DED19004AB786 /* UINavigationBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Styles.swift"; sourceTree = "<group>"; };
-		1178D4791D8DED19004AB786 /* UIPageControl+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Styles.swift"; sourceTree = "<group>"; };
-		1178D47A1D8DED19004AB786 /* UIProgressView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Styles.swift"; sourceTree = "<group>"; };
-		1178D47B1D8DED19004AB786 /* UISlider+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Styles.swift"; sourceTree = "<group>"; };
-		1178D47C1D8DED19004AB786 /* UITabBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+Styles.swift"; sourceTree = "<group>"; };
-		1178D47D1D8DED19004AB786 /* UITableView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Styles.swift"; sourceTree = "<group>"; };
-		1178D47E1D8DED19004AB786 /* UIToolbar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Styles.swift"; sourceTree = "<group>"; };
-		1178D47F1D8DED19004AB786 /* UIView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styles.swift"; sourceTree = "<group>"; };
 		118A19081D5AE2FB00613BA6 /* UISliderStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderStyles.swift; sourceTree = "<group>"; };
 		118A190A1D5AE3A100613BA6 /* UISliderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderTests.swift; sourceTree = "<group>"; };
 		118A190C1D5AE68C00613BA6 /* UIPageControlStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPageControlStyles.swift; sourceTree = "<group>"; };
@@ -231,16 +253,27 @@
 		1178D44F1D8DE330004AB786 /* GeneratedStyles */ = {
 			isa = PBXGroup;
 			children = (
-				1178D4761D8DED19004AB786 /* UIActivityIndicatorView+Styles.swift */,
-				1178D4771D8DED19004AB786 /* UILabel+Styles.swift */,
-				1178D4781D8DED19004AB786 /* UINavigationBar+Styles.swift */,
-				1178D4791D8DED19004AB786 /* UIPageControl+Styles.swift */,
-				1178D47A1D8DED19004AB786 /* UIProgressView+Styles.swift */,
-				1178D47B1D8DED19004AB786 /* UISlider+Styles.swift */,
-				1178D47C1D8DED19004AB786 /* UITabBar+Styles.swift */,
-				1178D47D1D8DED19004AB786 /* UITableView+Styles.swift */,
-				1178D47E1D8DED19004AB786 /* UIToolbar+Styles.swift */,
-				1178D47F1D8DED19004AB786 /* UIView+Styles.swift */,
+				10A9E9311D940D9100330BE0 /* UIActivityIndicatorView+Styles.swift */,
+				10A9E9321D940D9100330BE0 /* UIButton+Styles.swift */,
+				10A9E9331D940D9100330BE0 /* UICollectionView+Styles.swift */,
+				10A9E9341D940D9100330BE0 /* UICollectionViewCell+Styles.swift */,
+				10A9E9351D940D9100330BE0 /* UILabel+Styles.swift */,
+				10A9E9361D940D9100330BE0 /* UINavigationBar+Styles.swift */,
+				10A9E9371D940D9100330BE0 /* UIPageControl+Styles.swift */,
+				10A9E9381D940D9100330BE0 /* UIProgressView+Styles.swift */,
+				10A9E9391D940D9100330BE0 /* UIScrollView+Styles.swift */,
+				10A9E93A1D940D9100330BE0 /* UISearchBar+Styles.swift */,
+				10A9E93B1D940D9100330BE0 /* UISegmentedControl+Styles.swift */,
+				10A9E93C1D940D9100330BE0 /* UISlider+Styles.swift */,
+				10A9E93D1D940D9100330BE0 /* UIStepper+Styles.swift */,
+				10A9E93E1D940D9100330BE0 /* UISwitch+Styles.swift */,
+				10A9E93F1D940D9100330BE0 /* UITabBar+Styles.swift */,
+				10A9E9401D940D9100330BE0 /* UITableView+Styles.swift */,
+				10A9E9411D940D9100330BE0 /* UITableViewCell+Styles.swift */,
+				10A9E9421D940D9100330BE0 /* UITextField+Styles.swift */,
+				10A9E9431D940D9100330BE0 /* UITextView+Styles.swift */,
+				10A9E9441D940D9100330BE0 /* UIToolbar+Styles.swift */,
+				10A9E9451D940D9100330BE0 /* UIView+Styles.swift */,
 			);
 			path = GeneratedStyles;
 			sourceTree = SOURCE_ROOT;
@@ -484,29 +517,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A9E95A1D940D9100330BE0 /* UIView+Styles.swift in Sources */,
+				10A9E94C1D940D9100330BE0 /* UIPageControl+Styles.swift in Sources */,
 				118BDC641D512E3200ECC63F /* UIProgressViewStyles.swift in Sources */,
-				1178D4851D8DED19004AB786 /* UISlider+Styles.swift in Sources */,
 				119518481D58377E00A24481 /* Tint.swift in Sources */,
+				10A9E9531D940D9100330BE0 /* UISwitch+Styles.swift in Sources */,
 				118A19111D5AEEF700613BA6 /* UIActivityIndicatorViewStyles.swift in Sources */,
-				1178D4841D8DED19004AB786 /* UIProgressView+Styles.swift in Sources */,
+				10A9E9571D940D9100330BE0 /* UITextField+Styles.swift in Sources */,
+				10A9E9501D940D9100330BE0 /* UISegmentedControl+Styles.swift in Sources */,
+				10A9E9491D940D9100330BE0 /* UICollectionViewCell+Styles.swift in Sources */,
+				10A9E9551D940D9100330BE0 /* UITableView+Styles.swift in Sources */,
 				1195184A1D583D2E00A24481 /* UILabelStyles.swift in Sources */,
+				10A9E94B1D940D9100330BE0 /* UINavigationBar+Styles.swift in Sources */,
 				102DD52E1D4FBB7800F444A3 /* FontType.swift in Sources */,
+				10A9E9521D940D9100330BE0 /* UIStepper+Styles.swift in Sources */,
 				112C09621D291CAB0050AEA6 /* ViewController.swift in Sources */,
-				1178D4891D8DED19004AB786 /* UIView+Styles.swift in Sources */,
 				10820D5D1D4FAE8B00A5524F /* ColorType+Styles.swift in Sources */,
-				1178D4881D8DED19004AB786 /* UIToolbar+Styles.swift in Sources */,
-				1178D4871D8DED19004AB786 /* UITableView+Styles.swift in Sources */,
-				1178D4861D8DED19004AB786 /* UITabBar+Styles.swift in Sources */,
-				1178D4801D8DED19004AB786 /* UIActivityIndicatorView+Styles.swift in Sources */,
+				10A9E9461D940D9100330BE0 /* UIActivityIndicatorView+Styles.swift in Sources */,
+				10A9E9511D940D9100330BE0 /* UISlider+Styles.swift in Sources */,
 				118A190D1D5AE68C00613BA6 /* UIPageControlStyles.swift in Sources */,
-				1178D4821D8DED19004AB786 /* UINavigationBar+Styles.swift in Sources */,
+				10A9E9471D940D9100330BE0 /* UIButton+Styles.swift in Sources */,
+				10A9E94F1D940D9100330BE0 /* UISearchBar+Styles.swift in Sources */,
+				10A9E9591D940D9100330BE0 /* UIToolbar+Styles.swift in Sources */,
 				1195184E1D583F4F00A24481 /* Font.swift in Sources */,
-				1178D4831D8DED19004AB786 /* UIPageControl+Styles.swift in Sources */,
 				118A19091D5AE2FB00613BA6 /* UISliderStyles.swift in Sources */,
-				1178D4811D8DED19004AB786 /* UILabel+Styles.swift in Sources */,
+				10A9E9481D940D9100330BE0 /* UICollectionView+Styles.swift in Sources */,
+				10A9E94A1D940D9100330BE0 /* UILabel+Styles.swift in Sources */,
+				10A9E9561D940D9100330BE0 /* UITableViewCell+Styles.swift in Sources */,
 				118BDC5E1D512A2D00ECC63F /* BarTint.swift in Sources */,
+				10A9E94D1D940D9100330BE0 /* UIProgressView+Styles.swift in Sources */,
+				10A9E94E1D940D9100330BE0 /* UIScrollView+Styles.swift in Sources */,
+				10A9E9541D940D9100330BE0 /* UITabBar+Styles.swift in Sources */,
 				112C09601D291CAB0050AEA6 /* AppDelegate.swift in Sources */,
 				112C09831D2997E20050AEA6 /* ColorType.swift in Sources */,
+				10A9E9581D940D9100330BE0 /* UITextView+Styles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

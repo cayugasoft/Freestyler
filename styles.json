@@ -159,7 +159,61 @@
 		}
 	],
 	"UIToolbar": [
+        {
+            "property": "barStyle",
+            "type": "UIBarStyle"
+        },
+        {
+            "property": "translucent",
+            "type": "Bool"
+        },
+        {
+            "property": "barTintColor",
+            "type": "ColorType?"
+        }
 	],
+    "UIScrollView": [
+        {
+            "property": "indicatorStyle",
+            "type": "UIScrollViewIndicatorStyle"
+        },
+        {
+            "property": "scrollIndicatorInsets",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "showsHorizontalScrollIndicator",
+            "type": "Bool"
+        },
+        {
+            "property": "showsVerticalScrollIndicator",
+            "type": "Bool"
+        },
+        {
+            "property": "bounces",
+            "type": "Bool"
+        },
+        {
+            "property": "alwaysBounceVertical",
+            "type": "Bool"
+        },
+        {
+            "property": "alwaysBounceHorizontal",
+            "type": "Bool"
+        },
+        {
+            "property": "decelerationRate",
+            "type": "CGFloat"
+        },
+        {
+            "property": "contentInset",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "keyboardDismissMode",
+            "type": "UIScrollViewKeyboardDismissMode"
+        }
+    ],
 	"UITableView": [
         {
             "property": "rowHeight",
@@ -190,8 +244,127 @@
             "type": "Bool"
         }
 	],
+    "UICollectionView": [
+        {
+            "property": "backgroundView",
+            "type": "UIView?" 
+        }
+    ],
+
+    "UIButton": [
+        {
+            "property": "adjustsImageWhenHighlighted",
+            "type": "Bool"
+        },
+        {
+            "property": "adjustsImageWhenDisabled",
+            "type": "Bool"
+        },
+        {
+            "property": "showsTouchWhenHighlighted",
+            "type": "Bool"
+        },
+        {
+            "property": "contentEdgeInsets",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "titleEdgeInsets",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "imageEdgeInsets",
+            "type": "UIEdgeInsets"
+        }
+    ],
+    "UISegmentedControl": [
+
+    ],
+    "UITextField": [
+        {
+            "property": "placeholder",
+            "type": "String?"
+        },
+        {
+            "property": "attributedPlaceholder",
+            "type": "NSAttributedString"
+        },
+        {
+            "property": "defaultTextAttributes",
+            "type": "[String : AnyObject]"
+        },
+        {
+            "property": "font",
+            "type": "FontType?"
+        },
+        {
+            "property": "textColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "textAlignment",
+            "type": "NSTextAlignment"
+        },
+        {
+            "property": "typingAttributes",
+            "type": "[String : AnyObject]?"
+        },
+        {
+            "property": "adjustsFontSizeToFitWidth",
+            "type": "Bool"
+        },
+        {
+            "property": "minimumFontSize",
+            "type": "CGFloat"
+        },
+        {
+            "property": "borderStyle",
+            "type": "UITextBorderStyle"
+        },
+        {
+            "property": "background",
+            "type": "UIImage?"
+        },
+        {
+            "property": "disabledBackground",
+            "type": "UIImage?"
+        },
+        {
+            "property": "clearButtonMode",
+            "type": "UITextFieldViewMode"
+        },
+        {
+            "property": "leftView",
+            "type": "UIView?"
+        },
+        {
+            "property": "leftViewMode",
+            "type": "UITextFieldViewMode"
+        },
+        {
+            "property": "rightView",
+            "type": "UIView?"
+        },
+        {
+            "property": "rightViewMode",
+            "type": "UITextFieldViewMode"
+        }
+    ],
+    "UISwitch": [
+    ],
+    "UITableViewCell": [
+    ],
+    "UICollectionViewCell": [
+    ],
+    "UITextView": [
+        
+    ],
+    "UISearchBar": [
+    ],
 	"UISlider": [
 	],
+    "UIStepper": [
+    ],
 	"UIActivityIndicatorView": [
 	],
 	"UIPageControl": [
