@@ -6,21 +6,21 @@
 		},
         {
             "property": "backgroundColor",
-            "type": "ColorType"
+            "type": "ColorType?"
         },
         {
             "property": "tintColor",
-            "type": "ColorType"
+            "type": "ColorType?"
         }
 	],
     "UILabel": [
         {
             "property": "textColor",
-            "type": "ColorType"
+            "type": "ColorType?"
         },
         {
         	"property": "font",
-        	"type": "FontType"
+        	"type": "FontType?"
         },
         {
         	"property": "textAlignment",
@@ -52,7 +52,7 @@
 		},
 		{
 			"property": "highlightedTextColor",
-        	"type": "ColorType"
+        	"type": "ColorType?"
 		},
 		{
 			"property": "shadowColor",
@@ -83,7 +83,7 @@
 		},
 		{
 			"property": "barTintColor",
-			"type": "ColorType"		
+			"type": "ColorType?"		
 		},
 		{
 			"property": "shadowImage",
@@ -105,7 +105,7 @@
 		},
 		{
 			"property": "progressTintColor",
-			"type": "ColorType"
+			"type": "ColorType?"
 		},
 		{
 			"property": "progressImage",
@@ -113,7 +113,7 @@
 		},
 		{
 			"property": "trackTintColor",
-			"type": "ColorType"
+			"type": "ColorType?"
 		},
 		{
 			"property": "trackImage",
@@ -131,7 +131,7 @@
 		},
 		{
 			"property": "barTintColor",
-			"type": "ColorType"
+			"type": "ColorType?"
 		},
 		{
 			"property": "itemPositioning",

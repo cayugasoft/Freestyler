@@ -23,6 +23,10 @@ def property_assignment(custom_body, instance, keypath, property, property_type)
 		right_side = "#{property}.color"
 	elsif property_type == "FontType"
 		right_side = "#{property}.font"
+    elsif property_type == "ColorType?"
+        right_side = "#{property}?.color"
+    elsif property_type == "FontType?"
+        right_side = "#{property}?.font"
 	else
 		right_side = "#{property}"
 	end

@@ -124,7 +124,7 @@ class ViewController: UIViewController {
         
         let progress = UIProgressView()
         progress
-            <~ UIProgressView.progressTintColor(Palette.Main)
+            <~ UIProgressView.progressTintColor(nil)
         
         let tabbar = UITabBar()
         tabbar <~ UITabBar.backgroundImage(UIImage()) + UITabBar.barStyle(.Black)
