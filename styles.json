@@ -351,6 +351,22 @@
         }
     ],
     "UISwitch": [
+        {
+            "property": "onTintColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "thumbTintColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "onImage",
+            "type": "UIImage?"
+        },
+        {
+            "property": "offImage",
+            "type": "UIImage?"
+        }
     ],
     "UITableViewCell": [
     ],

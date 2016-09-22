@@ -65,6 +65,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-Tp-fzg">
+                                <rect key="frame" x="12" y="146" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -86,6 +89,7 @@
                         <outlet property="one" destination="mO6-0t-ZSu" id="08Q-xY-2NK"/>
                         <outlet property="segmentedControl" destination="NK2-LM-GhP" id="EL8-qe-fCU"/>
                         <outlet property="slider" destination="plm-vj-fAw" id="VJO-R4-v7O"/>
+                        <outlet property="sw" destination="lo5-Tp-fzg" id="eOO-eC-ddN"/>
                         <outlet property="textField" destination="857-Yx-UZl" id="GLK-ll-mFc"/>
                         <outlet property="three" destination="AVQ-rN-Vz2" id="Fee-bG-ZRQ"/>
                         <outlet property="two" destination="LuI-ao-wtK" id="JNx-ZD-XOt"/>

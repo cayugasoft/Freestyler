@@ -4,8 +4,9 @@ require "facets"
 
 
 def instance_name_from_class(class_name)
-	unprefixed = class_name[2..-1]
-	return unprefixed[0].downcase + unprefixed[1..-1]
+#	unprefixed = class_name[2..-1]
+#	return unprefixed[0].downcase + unprefixed[1..-1]
+    return "styleable"
 end
 
 def property_assignment(custom_body, instance, keypath, property, property_type) 
