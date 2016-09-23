@@ -133,6 +133,7 @@ class ViewController: UIViewController {
         textField <~ UITextField.borderStyle(.Line) + UITextField.placeholder("blablabla") + UITextField.font(Typography.Main) + UITextField.textColor(Palette.Third)
         
         sw <~ UISwitch.onTintColor(Palette.Main) + UISwitch.thumbTintColor(UIColor.blueColor())
+        
     }
 }
 

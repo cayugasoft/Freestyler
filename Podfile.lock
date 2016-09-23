@@ -1,7 +1,7 @@
 PODS:
   - FreestylerCore (0.3.0)
-  - Nimble (4.1.0)
-  - Quick (0.9.3)
+  - Nimble (5.0.0)
+  - Quick (0.10.0)
 
 DEPENDENCIES:
   - FreestylerCore
@@ -10,9 +10,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   FreestylerCore: ac6803ddb5aa4c217b458e134395930ce967eaf5
-  Nimble: 97a0a4cae5124c117115634b2d055d8c97d0af19
-  Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
+  Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
+  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
 
-PODFILE CHECKSUM: c21349c2bbf9e39d13dbcca714d38dc836056c00
+PODFILE CHECKSUM: 40febd7ca176d4a65b0a8f156a7a818adab597cd
 
 COCOAPODS: 1.0.1

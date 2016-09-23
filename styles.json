@@ -369,11 +369,98 @@
         }
     ],
     "UITableViewCell": [
+        {
+            "property": "backgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "selectedBackgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "multipleSelectionBackgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "accessoryType",
+            "type": "UITableViewCellAccessoryType"
+        },
+        {
+            "property": "accessoryView",
+            "type": "UIView?"
+        },
+        {
+            "property": "editingAccessoryType",
+            "type": "UITableViewCellAccessoryType"
+        },
+        {
+            "property": "editingAccessoryView",
+            "type": "UIView?"
+        },
+        {
+            "property": "showsReorderControl",
+            "type": "Bool"
+        },
+        {
+            "property": "indentationLevel",
+            "type": "Int"
+        },
+        {
+            "property": "indentationWidth",
+            "type": "CGFloat"
+        },
+        {
+            "property": "shouldIndentWhileEditing",
+            "type": "Bool"
+        },
+        {
+            "property": "separatorInset",
+            "type": "UIEdgeInsets"
+        }
     ],
     "UICollectionViewCell": [
+        {
+            "property": "backgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "selectedBackgroundView",
+            "type": "UIView?"
+        }
     ],
     "UITextView": [
-        
+        {
+            "property": "font",
+            "type": "FontType?"
+        },
+        {
+            "property": "textColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "editable",
+            "type": "Bool"
+        },
+        {
+            "property": "allowsEditingTextAttributes",
+            "type": "Bool"
+        },
+        {
+            "property": "textAlignment",
+            "type": "NSTextAlignment"
+        },
+        {
+            "property": "typingAttributes",
+            "type": "[String : AnyObject]"
+        },
+        {
+            "property": "linkTextAttributes",
+            "type": "[String : AnyObject]?"
+        },
+        {
+            "property": "textContainerInset",
+            "type": "UIEdgeInsets"
+        }
     ],
     "UISearchBar": [
     ],
