@@ -118,22 +118,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         debugBehavior = .Crash
         
-        let labelStyle = UILabel.textAlignment(.Center) + UILabel.textColor(Palette.Main) + UILabel.tintColor(Palette.Third)
+        let labelStyle = UILabel.styleTextAlignment(.Center) + UILabel.styleTextColor(Palette.Main) + UILabel.styleTintColor(Palette.Third)
         label <~ labelStyle
-    
-        let nb = navigationController!.navigationBar
-        nb <~ UINavigationBar.barTintColor(Palette.Main)
         
-        let progress = UIProgressView()
-        progress
-            <~ UIProgressView.progressTintColor(nil)
-        
-        let tabbar = UITabBar()
-        tabbar <~ UITabBar.backgroundImage(UIImage()) + UITabBar.barStyle(.Black)
-        textField <~ UITextField.borderStyle(.Line) + UITextField.placeholder("blablabla") + UITextField.font(Typography.Main) + UITextField.textColor(Palette.Third)
-        
-        sw <~ UISwitch.onTintColor(Palette.Main) + UISwitch.thumbTintColor(UIColor.blueColor())
-        
+        UILabel.sty
+//    
+//        let nb = navigationController!.navigationBar
+//        nb <~ UINavigationBar.barTintColor(Palette.Main)
+//        
+//        let progress = UIProgressView()
+//        progress
+//            <~ UIProgressView.progressTintColor(nil)
+//        
+//        let tabbar = UITabBar()
+//        tabbar <~ UITabBar.backgroundImage(UIImage()) + UITabBar.barStyle(.Black)
+//        textField <~ UITextField.borderStyle(.Line) + UITextField.placeholder("blablabla") + UITextField.font(Typography.Main) + UITextField.textColor(Palette.Third)
+//        
+//        sw <~ UISwitch.onTintColor(Palette.Main) + UISwitch.thumbTintColor(UIColor.blueColor())
+//        
     }
 }
 

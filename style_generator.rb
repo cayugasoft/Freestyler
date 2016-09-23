@@ -9,6 +9,10 @@ def instance_name_from_class(class_name)
     return "styleable"
 end
 
+def style_name_from_property(property)
+    return "style" + property[0].upcase + property[1..-1]
+end
+
 def property_assignment(custom_body, instance, keypath, property, property_type) 
 	if custom_body != "" 
 		return custom_body
@@ -39,7 +43,7 @@ def generate_swift_style(class_name, keypath, property, property_type, custom_bo
 
 	code = <<-STYLE
 /** #{comment} */
-public static func #{property}(#{property}: #{property_type}) -> Style {
+public static func #{style_name_from_property(property)}(#{property}: #{property_type}) -> Style {
     return Style(\"#{style_name}\") {
         (#{instance}: #{class_name}) in
         #{property_assignment(custom_body, instance, keypath, property, property_type)}
