@@ -511,9 +511,36 @@
         }
 	],
     "UIStepper": [
+
     ],
 	"UIActivityIndicatorView": [
+        {
+            "property": "activityIndicatorViewStyle",
+            "type": "UIActivityIndicatorViewStyle"
+        },
+        {
+            "property": "color",
+            "type": "ColorType"
+        }
 	],
+    "UIRefreshControl": [
+        {
+            "property": "attributedTitle",
+            "type": "NSAttributedString?"
+        }
+    ],
 	"UIPageControl": [
+        {
+            "property": "pageIndicatorTintColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "currentPageIndicatorTintColor",
+            "type": "ColorType?"  
+        },
+        {
+            "property": "defersCurrentPageDisplay",
+            "type": "Bool"
+        }
 	]
 }

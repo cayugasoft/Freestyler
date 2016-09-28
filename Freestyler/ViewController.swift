@@ -137,7 +137,9 @@ class ViewController: UIViewController {
 //        
 //        sw <~ UISwitch.onTintColor(Palette.Main) + UISwitch.thumbTintColor(UIColor.blueColor())
 //        
-        sw
+//        sw
+//        slider <~ UISlider.
+        slider <~ UISlider.styleBackgroundColor(Palette.Secondary) + UISlider.styleThumbTintColor(UIColor.redColor())
     }
 }
 
