@@ -139,7 +139,7 @@ class ViewController: UIViewController {
 //        
 //        sw
 //        slider <~ UISlider.
-        slider <~ UISlider.styleBackgroundColor(Palette.Secondary) + UISlider.styleThumbTintColor(UIColor.redColor())
+        slider <~ UISlider.styleBackgroundColor(Palette.Secondary) + UISlider.styleThumbTintColor(UIColor.redColor()) + UISlider.styleShadowOffset(UIOffset(horizontal: 10, vertical: 10)) + UISlider.styleMasksToBounds(false) + UISlider.styleShadowColor(Palette.Third) + UISlider.styleShadowOpacity(0.5)
     }
 }
 
