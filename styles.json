@@ -489,6 +489,26 @@
         }
     ],
 	"UISlider": [
+        {
+            "property": "minimumValueImage",
+            "type": "UIImage?"
+        },
+        {
+            "property": "maximumValueImage",
+            "type": "UIImage?"
+        },
+        {
+            "property": "minimumTrackTintColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "maximumTrackTintColor",
+            "type": "ColorType?"
+        },
+        {
+            "property": "thumbTintColor",
+            "type": "ColorType?"
+        }
 	],
     "UIStepper": [
     ],

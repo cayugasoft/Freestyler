@@ -120,8 +120,9 @@ class ViewController: UIViewController {
         
         let labelStyle = UILabel.styleTextAlignment(.Center) + UILabel.styleTextColor(Palette.Main) + UILabel.styleTintColor(Palette.Third)
         label <~ labelStyle
+//        label <~ UILabel.
         
-        UILabel.sty
+//        UILabel.sty
 //    
 //        let nb = navigationController!.navigationBar
 //        nb <~ UINavigationBar.barTintColor(Palette.Main)
@@ -136,6 +137,7 @@ class ViewController: UIViewController {
 //        
 //        sw <~ UISwitch.onTintColor(Palette.Main) + UISwitch.thumbTintColor(UIColor.blueColor())
 //        
+        sw
     }
 }
 
