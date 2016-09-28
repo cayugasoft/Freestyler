@@ -275,6 +275,10 @@
         {
             "property": "imageEdgeInsets",
             "type": "UIEdgeInsets"
+        },
+        {
+            "property": "reversesTitleShadowWhenHighlighted",
+            "type": "Bool"
         }
     ],
     "UISegmentedControl": [

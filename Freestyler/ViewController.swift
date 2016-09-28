@@ -22,6 +22,14 @@ enum Palette: ColorType {
     }
 }
 
+infix operator & { associativity left precedence 140 }
+/// The same as `combineStyles` method.
+public func & (left: Style, right: Style) -> Style {
+    return left + right
+}
+
+
+
 enum Typography: FontType {
     case Main, Secondary
     
@@ -139,9 +147,23 @@ class ViewController: UIViewController {
 //        
 //        sw
 //        slider <~ UISlider.
-        slider <~ UISlider.styleBackgroundColor(Palette.Secondary) + UISlider.styleThumbTintColor(UIColor.redColor()) + UISlider.styleShadowOffset(UIOffset(horizontal: 10, vertical: 10)) + UISlider.styleMasksToBounds(false) + UISlider.styleShadowColor(Palette.Third) + UISlider.styleShadowOpacity(0.5)
+        
+        let x: Style = [
+             UISlider.styleBackgroundColor(Palette.Secondary),
+             UISlider.styleThumbTintColor(UIColor.redColor()),
+             UISlider.styleShadowOffset(UIOffset(horizontal: 10, vertical: 10)),
+             UISlider.styleMasksToBounds(false),
+             UISlider.styleShadowColor(Palette.Third),
+             UISlider.styleShadowOpacity(0.5),
+             UISlider.styleShadowColor(UIColor.redColor()),
+             UISlider.styleShadowRadius(12)
+        ]
+        slider <~ x
+        
+        one <~ UIButton.styleTitleColor(UIColor.blackColor())
     }
 }
+
 
 
 extension UIColor: ColorType {
