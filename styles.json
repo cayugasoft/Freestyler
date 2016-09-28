@@ -338,16 +338,8 @@
             "type": "UITextFieldViewMode"
         },
         {
-            "property": "leftView",
-            "type": "UIView?"
-        },
-        {
             "property": "leftViewMode",
             "type": "UITextFieldViewMode"
-        },
-        {
-            "property": "rightView",
-            "type": "UIView?"
         },
         {
             "property": "rightViewMode",

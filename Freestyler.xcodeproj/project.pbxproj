@@ -46,6 +46,8 @@
 		11B3950D1D9C6A160028EBF2 /* UIView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B394F71D9C6A160028EBF2 /* UIView+Styles.swift */; };
 		11C9665C1D9C6DA3007B0145 /* UIView+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C9665B1D9C6DA3007B0145 /* UIView+HandmadeStyles.swift */; };
 		11C966601D9C78E4007B0145 /* UIButton+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C9665F1D9C78E4007B0145 /* UIButton+HandmadeStyles.swift */; };
+		11C966621D9C7D42007B0145 /* UINavigationBar+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C966611D9C7D42007B0145 /* UINavigationBar+HandmadeStyles.swift */; };
+		11C966641D9C7F38007B0145 /* UIToolbar+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C966631D9C7F38007B0145 /* UIToolbar+HandmadeStyles.swift */; };
 		1CD39B62BDCE664A48B219A4 /* Pods_FreestylerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E99FA718143EE1A6D3F2A8 /* Pods_FreestylerTests.framework */; };
 		6EB31044C223959FA4E1B5AB /* Pods_Freestyler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2377A79C1C757D3E83E57 /* Pods_Freestyler.framework */; };
 /* End PBXBuildFile section */
@@ -119,6 +121,8 @@
 		11B394F71D9C6A160028EBF2 /* UIView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styles.swift"; sourceTree = "<group>"; };
 		11C9665B1D9C6DA3007B0145 /* UIView+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HandmadeStyles.swift"; sourceTree = "<group>"; };
 		11C9665F1D9C78E4007B0145 /* UIButton+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+HandmadeStyles.swift"; sourceTree = "<group>"; };
+		11C966611D9C7D42007B0145 /* UINavigationBar+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+HandmadeStyles.swift"; sourceTree = "<group>"; };
+		11C966631D9C7F38007B0145 /* UIToolbar+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+HandmadeStyles.swift"; sourceTree = "<group>"; };
 		149C3DE625FAEBE4D4C7494E /* Pods-Freestyler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freestyler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freestyler/Pods-Freestyler.debug.xcconfig"; sourceTree = "<group>"; };
 		28D2377A79C1C757D3E83E57 /* Pods_Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freestyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2A2618BEAA81E959A92AB5 /* Pods-FreestylerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestylerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreestylerTests/Pods-FreestylerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -244,6 +248,8 @@
 			children = (
 				11C9665B1D9C6DA3007B0145 /* UIView+HandmadeStyles.swift */,
 				11C9665F1D9C78E4007B0145 /* UIButton+HandmadeStyles.swift */,
+				11C966611D9C7D42007B0145 /* UINavigationBar+HandmadeStyles.swift */,
+				11C966631D9C7F38007B0145 /* UIToolbar+HandmadeStyles.swift */,
 			);
 			path = HandmadeStyles;
 			sourceTree = "<group>";
@@ -491,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C966621D9C7D42007B0145 /* UINavigationBar+HandmadeStyles.swift in Sources */,
 				11B394FE1D9C6A160028EBF2 /* UIPageControl+Styles.swift in Sources */,
 				11B395011D9C6A160028EBF2 /* UIScrollView+Styles.swift in Sources */,
 				11B394FB1D9C6A160028EBF2 /* UICollectionViewCell+Styles.swift in Sources */,
@@ -503,6 +510,7 @@
 				11B395001D9C6A160028EBF2 /* UIRefreshControl+Styles.swift in Sources */,
 				11B394F91D9C6A160028EBF2 /* UIButton+Styles.swift in Sources */,
 				11B3950D1D9C6A160028EBF2 /* UIView+Styles.swift in Sources */,
+				11C966641D9C7F38007B0145 /* UIToolbar+HandmadeStyles.swift in Sources */,
 				11B395081D9C6A160028EBF2 /* UITableView+Styles.swift in Sources */,
 				11C966601D9C78E4007B0145 /* UIButton+HandmadeStyles.swift in Sources */,
 				11B394FA1D9C6A160028EBF2 /* UICollectionView+Styles.swift in Sources */,
