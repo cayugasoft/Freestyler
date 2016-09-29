@@ -232,10 +232,6 @@
             "type": "UIVisualEffect?"
         },
         {
-            "property": "backgroundView",
-            "type": "UIView?" 
-        },
-        {
             "property": "separatorInset",
             "type": "UIEdgeInsets"
         },
@@ -245,10 +241,6 @@
         }
 	],
     "UICollectionView": [
-        {
-            "property": "backgroundView",
-            "type": "UIView?" 
-        }
     ],
 
     "UIButton": [
@@ -366,32 +358,12 @@
     ],
     "UITableViewCell": [
         {
-            "property": "backgroundView",
-            "type": "UIView?"
-        },
-        {
-            "property": "selectedBackgroundView",
-            "type": "UIView?"
-        },
-        {
-            "property": "multipleSelectionBackgroundView",
-            "type": "UIView?"
-        },
-        {
             "property": "accessoryType",
             "type": "UITableViewCellAccessoryType"
         },
         {
-            "property": "accessoryView",
-            "type": "UIView?"
-        },
-        {
             "property": "editingAccessoryType",
             "type": "UITableViewCellAccessoryType"
-        },
-        {
-            "property": "editingAccessoryView",
-            "type": "UIView?"
         },
         {
             "property": "showsReorderControl",
@@ -415,14 +387,6 @@
         }
     ],
     "UICollectionViewCell": [
-        {
-            "property": "backgroundView",
-            "type": "UIView?"
-        },
-        {
-            "property": "selectedBackgroundView",
-            "type": "UIView?"
-        }
     ],
     "UITextView": [
         {

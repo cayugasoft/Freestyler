@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
   	Freestyler is, basically, 2 things:
   	1. Infrastructure for creating and applying styles.
-  	2. The big set of predefined styles.
+  	2. The big set of predefined styles for all UIView subclasses.
                    DESC
 
   s.homepage     = "https://github.com/cayugasoft/Freestyler"

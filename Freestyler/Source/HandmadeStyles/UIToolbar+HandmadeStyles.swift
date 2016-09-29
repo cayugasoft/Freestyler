@@ -11,12 +11,6 @@ import FreestylerCore
 
 
 public extension UIToolbar {
-//    func setBackgroundImage(UIImage?, forToolbarPosition: UIBarPosition, barMetrics: UIBarMetrics)
-//    Sets the image to use for the background in a given position and with given metrics.
-//    func shadowImage(forToolbarPosition: UIBarPosition)
-//    Returns the image to use for the toolbar shadow in a given position.
-//    func setShadowImage(UIImage?, forToolbarPosition: UIBarPosition)
-//    Sets the image to use for the toolbar shadow in a given position.
     public static func styleBackgroundImage(image: UIImage?, forBarPosition barPosition: UIBarPosition = .Any, barMetrics: UIBarMetrics = .Default) -> Style {
         return Style("Background Image \(image) for bar position \(barPosition), bar metrics \(barMetrics)") {
             (styleable: UIToolbar) in
