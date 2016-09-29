@@ -9,7 +9,7 @@ Freestyler = [FreestylerCore](https://github.com/cayugasoft/FreestylerCore) + a 
 
 This library is currently in development.
 ## Requirements
-iOS 8.0+, Swift 2.3
+iOS 9.0+, Swift 2.3
 
 ## Installation
 Could be installed via CocoaPods:

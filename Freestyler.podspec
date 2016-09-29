@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Freestyler"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "Freestyler helps you create and reuse styles which can be applied to views using convenient syntax."
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
 #   s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Sources/**/*.swift"
+  s.source_files  = "Freestyler/Source/**/*.swift"
 
   # s.public_header_files = "Classes/**/*.h"
 
