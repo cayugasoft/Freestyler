@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39DB72C92050ABB5A4E3177D80FCF27D /* Pods-Freestyler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C5D69F52CF68958CA7745105AD61D4 /* Pods-Freestyler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F4E9A5449ABEE0BE62249E83B5EBEEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		416AEDE30B15F8EF59D2D13CBB644567 /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A52A5BA104451698E0DA41C096771 /* Styleable.swift */; };
+		4A13B3DADC8130E47C56F1B2FA3BBD55 /* Pods-Freestyler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A9882F435CC71BF4EAF8F155D3D8B /* Pods-Freestyler-dummy.m */; };
+		7885366EC5D8D8F50620031F38CE7555 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846F07271BF527BCA0D113F4BFA3CDF /* Style.swift */; };
+		791CF3AB5144C74FE4F623F751A2D410 /* FreestylerCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 971160A12A3E96C6FB5CD77E04C39395 /* FreestylerCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8B07A2FEB960508857AE907FBA4949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		ABAFB0D742D26EB0B2A429A4C16516E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D630BB7B36EA8DED2309E2C179C39077 /* StyleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D676344FC7F8DA054BC83F7EBCA531 /* StyleType.swift */; };
+		DB188E6FB40FE295E3C7D5D5A754F106 /* StyleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA339DD90BFE05D191EFF30C3466B0EB /* StyleError.swift */; };
+		E07E89C8B9097CFF3A4D9660F317EEF6 /* FreestylerCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A1641BB89FAC3E23BD99D0EDEF530 /* FreestylerCore-dummy.m */; };
+		EEEFEEBD473C7A2CA1019F9E85DB0C8F /* Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ABFF0FBFF16BFA82DDA7C9BA97B2B /* Apply.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF83C5764F64F8CC0EF74441C9E5F23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773AA9E53BB0C9C009EDBE5FF252D924;
+			remoteInfo = FreestylerCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D676344FC7F8DA054BC83F7EBCA531 /* StyleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyleType.swift; path = Source/StyleType.swift; sourceTree = "<group>"; };
+		06323EDD2D593128E85E41A9CB1EC888 /* Pods-Freestyler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Freestyler-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1846F07271BF527BCA0D113F4BFA3CDF /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Source/Style.swift; sourceTree = "<group>"; };
+		236A52A5BA104451698E0DA41C096771 /* Styleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Styleable.swift; path = Source/Styleable.swift; sourceTree = "<group>"; };
+		292753A5D053E72E55BB05F50D9556FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33175817169BE7410A910E9D68B5E7D4 /* Pods-Freestyler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Freestyler.modulemap"; sourceTree = "<group>"; };
+		3C6A1641BB89FAC3E23BD99D0EDEF530 /* FreestylerCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FreestylerCore-dummy.m"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		65C0244B5D5C1FB308DD04BD0C5DEC4D /* Pods_Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Freestyler.framework; path = "Pods-Freestyler.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		674B6ECCBCABACA5C0EBD595CA537A57 /* Pods-Freestyler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Freestyler.debug.xcconfig"; sourceTree = "<group>"; };
+		69746E34B64021045FC0F5D6CD02753B /* FreestylerCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FreestylerCore-prefix.pch"; sourceTree = "<group>"; };
+		772ABFF0FBFF16BFA82DDA7C9BA97B2B /* Apply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Apply.swift; path = Source/Apply.swift; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		810A9882F435CC71BF4EAF8F155D3D8B /* Pods-Freestyler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Freestyler-dummy.m"; sourceTree = "<group>"; };
+		848888A8180B144975382ECFB05DBC87 /* Pods-Freestyler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Freestyler.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F956D37E00457D5C3D910D4D082B17 /* Pods-Freestyler-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Freestyler-resources.sh"; sourceTree = "<group>"; };
+		971160A12A3E96C6FB5CD77E04C39395 /* FreestylerCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FreestylerCore-umbrella.h"; sourceTree = "<group>"; };
+		B703DA3F02BE48C1C83624591C15B041 /* Pods-Freestyler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Freestyler-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA339DD90BFE05D191EFF30C3466B0EB /* StyleError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyleError.swift; path = Source/StyleError.swift; sourceTree = "<group>"; };
+		C5C5D69F52CF68958CA7745105AD61D4 /* Pods-Freestyler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Freestyler-umbrella.h"; sourceTree = "<group>"; };
+		F367CF5DEC71248EC81928E3701D77BE /* FreestylerCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FreestylerCore.xcconfig; sourceTree = "<group>"; };
+		F61F0E6BF2ECE4C927DBA489DC49C675 /* FreestylerCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FreestylerCore.modulemap; sourceTree = "<group>"; };
+		FB7950857CDE24948307C9A0BA186CD6 /* FreestylerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FreestylerCore.framework; path = FreestylerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC8FE2902771EAC85022AD885A10193 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DEFA09A0A61F6DEFBF7B9900DD5ABD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAFB0D742D26EB0B2A429A4C16516E8 /* Foundation.framework in Frameworks */,
+				3F4E9A5449ABEE0BE62249E83B5EBEEA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F067204BB4BB31655FC8A841C9ABD54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8B07A2FEB960508857AE907FBA4949 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B0486A91857B9F357294DBB4765606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7950857CDE24948307C9A0BA186CD6 /* FreestylerCore.framework */,
+				65C0244B5D5C1FB308DD04BD0C5DEC4D /* Pods_Freestyler.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3846C89F15890E027436A78A1FA9D3FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3E238C629945672D716B6E2E94BF7 /* FreestylerCore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69106B9337D38C79C160058C96FC8966 /* Pods-Freestyler */ = {
+			isa = PBXGroup;
+			children = (
+				292753A5D053E72E55BB05F50D9556FC /* Info.plist */,
+				33175817169BE7410A910E9D68B5E7D4 /* Pods-Freestyler.modulemap */,
+				06323EDD2D593128E85E41A9CB1EC888 /* Pods-Freestyler-acknowledgements.markdown */,
+				B703DA3F02BE48C1C83624591C15B041 /* Pods-Freestyler-acknowledgements.plist */,
+				810A9882F435CC71BF4EAF8F155D3D8B /* Pods-Freestyler-dummy.m */,
+				96F956D37E00457D5C3D910D4D082B17 /* Pods-Freestyler-resources.sh */,
+				C5C5D69F52CF68958CA7745105AD61D4 /* Pods-Freestyler-umbrella.h */,
+				674B6ECCBCABACA5C0EBD595CA537A57 /* Pods-Freestyler.debug.xcconfig */,
+				848888A8180B144975382ECFB05DBC87 /* Pods-Freestyler.release.xcconfig */,
+			);
+			name = "Pods-Freestyler";
+			path = "Target Support Files/Pods-Freestyler";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3846C89F15890E027436A78A1FA9D3FB /* Pods */,
+				00B0486A91857B9F357294DBB4765606 /* Products */,
+				DF7BCF57D887B84512E21564638562D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC3E238C629945672D716B6E2E94BF7 /* FreestylerCore */ = {
+			isa = PBXGroup;
+			children = (
+				772ABFF0FBFF16BFA82DDA7C9BA97B2B /* Apply.swift */,
+				1846F07271BF527BCA0D113F4BFA3CDF /* Style.swift */,
+				236A52A5BA104451698E0DA41C096771 /* Styleable.swift */,
+				BA339DD90BFE05D191EFF30C3466B0EB /* StyleError.swift */,
+				00D676344FC7F8DA054BC83F7EBCA531 /* StyleType.swift */,
+				C702B84B3921AFB52AC5D6E7A2422347 /* Support Files */,
+			);
+			name = FreestylerCore;
+			path = FreestylerCore;
+			sourceTree = "<group>";
+		};
+		C702B84B3921AFB52AC5D6E7A2422347 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F61F0E6BF2ECE4C927DBA489DC49C675 /* FreestylerCore.modulemap */,
+				F367CF5DEC71248EC81928E3701D77BE /* FreestylerCore.xcconfig */,
+				3C6A1641BB89FAC3E23BD99D0EDEF530 /* FreestylerCore-dummy.m */,
+				69746E34B64021045FC0F5D6CD02753B /* FreestylerCore-prefix.pch */,
+				971160A12A3E96C6FB5CD77E04C39395 /* FreestylerCore-umbrella.h */,
+				FEC8FE2902771EAC85022AD885A10193 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FreestylerCore";
+			sourceTree = "<group>";
+		};
+		DF7BCF57D887B84512E21564638562D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69106B9337D38C79C160058C96FC8966 /* Pods-Freestyler */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CBAE90A8B9E7CA5B5348A0981445ECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB72C92050ABB5A4E3177D80FCF27D /* Pods-Freestyler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A91516011410E0D6D23BFE1E517D43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791CF3AB5144C74FE4F623F751A2D410 /* FreestylerCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		773AA9E53BB0C9C009EDBE5FF252D924 /* FreestylerCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2C21D0DCAD5E9F570E50CE7237DDBB /* Build configuration list for PBXNativeTarget "FreestylerCore" */;
+			buildPhases = (
+				525CF36301448FF1D2C072B63D83C023 /* Sources */,
+				1DEFA09A0A61F6DEFBF7B9900DD5ABD6 /* Frameworks */,
+				48A91516011410E0D6D23BFE1E517D43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreestylerCore;
+			productName = FreestylerCore;
+			productReference = FB7950857CDE24948307C9A0BA186CD6 /* FreestylerCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB37C1359B520BD5CC35AA754D86FE46 /* Pods-Freestyler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747FE5AD0F70FCA41D3664A202E5F385 /* Build configuration list for PBXNativeTarget "Pods-Freestyler" */;
+			buildPhases = (
+				D19CFB20D7DF2D50F660E419695F4713 /* Sources */,
+				F067204BB4BB31655FC8A841C9ABD54E /* Frameworks */,
+				1CBAE90A8B9E7CA5B5348A0981445ECA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CA77D1A8B6A3208B31E43ADB3291A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Freestyler";
+			productName = "Pods-Freestyler";
+			productReference = 65C0244B5D5C1FB308DD04BD0C5DEC4D /* Pods_Freestyler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00B0486A91857B9F357294DBB4765606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773AA9E53BB0C9C009EDBE5FF252D924 /* FreestylerCore */,
+				FB37C1359B520BD5CC35AA754D86FE46 /* Pods-Freestyler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525CF36301448FF1D2C072B63D83C023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEFEEBD473C7A2CA1019F9E85DB0C8F /* Apply.swift in Sources */,
+				E07E89C8B9097CFF3A4D9660F317EEF6 /* FreestylerCore-dummy.m in Sources */,
+				7885366EC5D8D8F50620031F38CE7555 /* Style.swift in Sources */,
+				416AEDE30B15F8EF59D2D13CBB644567 /* Styleable.swift in Sources */,
+				DB188E6FB40FE295E3C7D5D5A754F106 /* StyleError.swift in Sources */,
+				D630BB7B36EA8DED2309E2C179C39077 /* StyleType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19CFB20D7DF2D50F660E419695F4713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A13B3DADC8130E47C56F1B2FA3BBD55 /* Pods-Freestyler-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2CA77D1A8B6A3208B31E43ADB3291A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FreestylerCore;
+			target = 773AA9E53BB0C9C009EDBE5FF252D924 /* FreestylerCore */;
+			targetProxy = CF83C5764F64F8CC0EF74441C9E5F23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F422D56A8047D8B915C8DF1552FF7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F367CF5DEC71248EC81928E3701D77BE /* FreestylerCore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FreestylerCore/FreestylerCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FreestylerCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FreestylerCore/FreestylerCore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FreestylerCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CA2F0394221E706C17FD720EC473760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848888A8180B144975382ECFB05DBC87 /* Pods-Freestyler.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Freestyler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Freestyler/Pods-Freestyler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Freestyler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3446A87A2F5A833B16EB51EBF47CABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F367CF5DEC71248EC81928E3701D77BE /* FreestylerCore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FreestylerCore/FreestylerCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FreestylerCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FreestylerCore/FreestylerCore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FreestylerCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F931C26B6A45B4F725A98A6EBAFCCAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674B6ECCBCABACA5C0EBD595CA537A57 /* Pods-Freestyler.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Freestyler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Freestyler/Pods-Freestyler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Freestyler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747FE5AD0F70FCA41D3664A202E5F385 /* Build configuration list for PBXNativeTarget "Pods-Freestyler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F931C26B6A45B4F725A98A6EBAFCCAE3 /* Debug */,
+				9CA2F0394221E706C17FD720EC473760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2C21D0DCAD5E9F570E50CE7237DDBB /* Build configuration list for PBXNativeTarget "FreestylerCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3446A87A2F5A833B16EB51EBF47CABF /* Debug */,
+				7F422D56A8047D8B915C8DF1552FF7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

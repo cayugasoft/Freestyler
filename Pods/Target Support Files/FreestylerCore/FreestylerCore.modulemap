@@ -1,0 +1,6 @@
+framework module FreestylerCore {
+  umbrella header "FreestylerCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

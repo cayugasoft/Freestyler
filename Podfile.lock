@@ -1,0 +1,12 @@
+PODS:
+  - FreestylerCore (1.0.1)
+
+DEPENDENCIES:
+  - FreestylerCore (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  FreestylerCore: d56bcc8e4c0bc3fad344395d4e3d32691d907e76
+
+PODFILE CHECKSUM: f804b286390fed69beed0cb53c58c20e89ab5fe5
+
+COCOAPODS: 1.2.0.beta.1
