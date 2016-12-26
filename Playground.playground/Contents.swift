@@ -24,3 +24,4 @@ PlaygroundPage.current.liveView = container
 container <~ UIView.style(tintColor: UIColor.blue)
 container.addSubview(button)
 button <~ [s, UIView.style(cornerRadius: 5.0)]
+button <~ [UIButton.style(titleShadowColor: UIColor.green, forControlState: .normal)]
