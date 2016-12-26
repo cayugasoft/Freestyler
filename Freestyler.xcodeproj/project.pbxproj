@@ -8,14 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		107FA1F51E0C393F0059AB48 /* Freestyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 107FA1F31E0C393F0059AB48 /* Freestyler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E883B01E0C52AF004BA14E /* UIActivityIndicatorView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E8839A1E0C52AF004BA14E /* UIActivityIndicatorView+Styles.swift */; };
+		10E883B11E0C52AF004BA14E /* UIButton+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E8839B1E0C52AF004BA14E /* UIButton+Styles.swift */; };
+		10E883B21E0C52AF004BA14E /* UICollectionView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E8839C1E0C52AF004BA14E /* UICollectionView+Styles.swift */; };
+		10E883B31E0C52AF004BA14E /* UICollectionViewCell+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E8839D1E0C52AF004BA14E /* UICollectionViewCell+Styles.swift */; };
+		10E883B41E0C52AF004BA14E /* UILabel+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E8839E1E0C52AF004BA14E /* UILabel+Styles.swift */; };
+		10E883B51E0C52AF004BA14E /* UINavigationBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E8839F1E0C52AF004BA14E /* UINavigationBar+Styles.swift */; };
+		10E883B61E0C52AF004BA14E /* UIPageControl+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A01E0C52AF004BA14E /* UIPageControl+Styles.swift */; };
+		10E883B71E0C52AF004BA14E /* UIProgressView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A11E0C52AF004BA14E /* UIProgressView+Styles.swift */; };
+		10E883B81E0C52AF004BA14E /* UIRefreshControl+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A21E0C52AF004BA14E /* UIRefreshControl+Styles.swift */; };
+		10E883B91E0C52AF004BA14E /* UIScrollView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A31E0C52AF004BA14E /* UIScrollView+Styles.swift */; };
+		10E883BA1E0C52AF004BA14E /* UISearchBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A41E0C52AF004BA14E /* UISearchBar+Styles.swift */; };
+		10E883BB1E0C52AF004BA14E /* UISegmentedControl+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A51E0C52AF004BA14E /* UISegmentedControl+Styles.swift */; };
+		10E883BC1E0C52AF004BA14E /* UISlider+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A61E0C52AF004BA14E /* UISlider+Styles.swift */; };
+		10E883BD1E0C52AF004BA14E /* UIStepper+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A71E0C52AF004BA14E /* UIStepper+Styles.swift */; };
+		10E883BE1E0C52AF004BA14E /* UISwitch+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A81E0C52AF004BA14E /* UISwitch+Styles.swift */; };
+		10E883BF1E0C52AF004BA14E /* UITabBar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883A91E0C52AF004BA14E /* UITabBar+Styles.swift */; };
+		10E883C01E0C52AF004BA14E /* UITableView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883AA1E0C52AF004BA14E /* UITableView+Styles.swift */; };
+		10E883C11E0C52AF004BA14E /* UITableViewCell+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883AB1E0C52AF004BA14E /* UITableViewCell+Styles.swift */; };
+		10E883C21E0C52AF004BA14E /* UITextField+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883AC1E0C52AF004BA14E /* UITextField+Styles.swift */; };
+		10E883C31E0C52AF004BA14E /* UITextView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883AD1E0C52AF004BA14E /* UITextView+Styles.swift */; };
+		10E883C41E0C52AF004BA14E /* UIToolbar+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883AE1E0C52AF004BA14E /* UIToolbar+Styles.swift */; };
+		10E883C51E0C52AF004BA14E /* UIView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883AF1E0C52AF004BA14E /* UIView+Styles.swift */; };
+		10E883C81E0C5319004BA14E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883C61E0C5319004BA14E /* Color.swift */; };
+		10E883C91E0C5319004BA14E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E883C71E0C5319004BA14E /* Font.swift */; };
+		10FE89C91E112BB100A501D6 /* UIButton+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE89C51E112BB100A501D6 /* UIButton+HandmadeStyles.swift */; };
+		10FE89CA1E112BB100A501D6 /* UINavigationBar+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE89C61E112BB100A501D6 /* UINavigationBar+HandmadeStyles.swift */; };
+		10FE89CB1E112BB100A501D6 /* UIToolbar+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE89C71E112BB100A501D6 /* UIToolbar+HandmadeStyles.swift */; };
+		10FE89CC1E112BB100A501D6 /* UIView+HandmadeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE89C81E112BB100A501D6 /* UIView+HandmadeStyles.swift */; };
 		C7D4865FA30C5F5A5ED1BC1E /* Pods_Freestyler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8DF9C370A1111F4EAC1EAF /* Pods_Freestyler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C8DF9C370A1111F4EAC1EAF /* Pods_Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freestyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1052F9ED1E0C587300D37AC3 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		107FA1F11E0C393F0059AB48 /* Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Freestyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		107FA1F31E0C393F0059AB48 /* Freestyler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Freestyler.h; sourceTree = "<group>"; };
 		107FA1F41E0C393F0059AB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E8839A1E0C52AF004BA14E /* UIActivityIndicatorView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Styles.swift"; sourceTree = "<group>"; };
+		10E8839B1E0C52AF004BA14E /* UIButton+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Styles.swift"; sourceTree = "<group>"; };
+		10E8839C1E0C52AF004BA14E /* UICollectionView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Styles.swift"; sourceTree = "<group>"; };
+		10E8839D1E0C52AF004BA14E /* UICollectionViewCell+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Styles.swift"; sourceTree = "<group>"; };
+		10E8839E1E0C52AF004BA14E /* UILabel+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Styles.swift"; sourceTree = "<group>"; };
+		10E8839F1E0C52AF004BA14E /* UINavigationBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Styles.swift"; sourceTree = "<group>"; };
+		10E883A01E0C52AF004BA14E /* UIPageControl+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Styles.swift"; sourceTree = "<group>"; };
+		10E883A11E0C52AF004BA14E /* UIProgressView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Styles.swift"; sourceTree = "<group>"; };
+		10E883A21E0C52AF004BA14E /* UIRefreshControl+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Styles.swift"; sourceTree = "<group>"; };
+		10E883A31E0C52AF004BA14E /* UIScrollView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Styles.swift"; sourceTree = "<group>"; };
+		10E883A41E0C52AF004BA14E /* UISearchBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Styles.swift"; sourceTree = "<group>"; };
+		10E883A51E0C52AF004BA14E /* UISegmentedControl+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Styles.swift"; sourceTree = "<group>"; };
+		10E883A61E0C52AF004BA14E /* UISlider+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Styles.swift"; sourceTree = "<group>"; };
+		10E883A71E0C52AF004BA14E /* UIStepper+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStepper+Styles.swift"; sourceTree = "<group>"; };
+		10E883A81E0C52AF004BA14E /* UISwitch+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Styles.swift"; sourceTree = "<group>"; };
+		10E883A91E0C52AF004BA14E /* UITabBar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+Styles.swift"; sourceTree = "<group>"; };
+		10E883AA1E0C52AF004BA14E /* UITableView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Styles.swift"; sourceTree = "<group>"; };
+		10E883AB1E0C52AF004BA14E /* UITableViewCell+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Styles.swift"; sourceTree = "<group>"; };
+		10E883AC1E0C52AF004BA14E /* UITextField+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Styles.swift"; sourceTree = "<group>"; };
+		10E883AD1E0C52AF004BA14E /* UITextView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Styles.swift"; sourceTree = "<group>"; };
+		10E883AE1E0C52AF004BA14E /* UIToolbar+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Styles.swift"; sourceTree = "<group>"; };
+		10E883AF1E0C52AF004BA14E /* UIView+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Styles.swift"; sourceTree = "<group>"; };
+		10E883C61E0C5319004BA14E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		10E883C71E0C5319004BA14E /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		10FE89C51E112BB100A501D6 /* UIButton+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+HandmadeStyles.swift"; sourceTree = "<group>"; };
+		10FE89C61E112BB100A501D6 /* UINavigationBar+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+HandmadeStyles.swift"; sourceTree = "<group>"; };
+		10FE89C71E112BB100A501D6 /* UIToolbar+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+HandmadeStyles.swift"; sourceTree = "<group>"; };
+		10FE89C81E112BB100A501D6 /* UIView+HandmadeStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HandmadeStyles.swift"; sourceTree = "<group>"; };
 		3D52C0292044253E29C420CA /* Pods-Freestyler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freestyler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freestyler/Pods-Freestyler.debug.xcconfig"; sourceTree = "<group>"; };
 		4CE12ED6ACE5C79F40386CCC /* Pods-Freestyler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freestyler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freestyler/Pods-Freestyler.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +96,7 @@
 				107FA1F21E0C393F0059AB48 /* Freestyler */,
 				9836BCCF3E0F952A464A40A9 /* Pods */,
 				107FA1CB1E0C38520059AB48 /* Products */,
+				1052F9ED1E0C587300D37AC3 /* Playground.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,16 +121,40 @@
 		10E883941E0C450E004BA14E /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				10E8839A1E0C52AF004BA14E /* UIActivityIndicatorView+Styles.swift */,
+				10E8839B1E0C52AF004BA14E /* UIButton+Styles.swift */,
+				10E8839C1E0C52AF004BA14E /* UICollectionView+Styles.swift */,
+				10E8839D1E0C52AF004BA14E /* UICollectionViewCell+Styles.swift */,
+				10E8839E1E0C52AF004BA14E /* UILabel+Styles.swift */,
+				10E8839F1E0C52AF004BA14E /* UINavigationBar+Styles.swift */,
+				10E883A01E0C52AF004BA14E /* UIPageControl+Styles.swift */,
+				10E883A11E0C52AF004BA14E /* UIProgressView+Styles.swift */,
+				10E883A21E0C52AF004BA14E /* UIRefreshControl+Styles.swift */,
+				10E883A31E0C52AF004BA14E /* UIScrollView+Styles.swift */,
+				10E883A41E0C52AF004BA14E /* UISearchBar+Styles.swift */,
+				10E883A51E0C52AF004BA14E /* UISegmentedControl+Styles.swift */,
+				10E883A61E0C52AF004BA14E /* UISlider+Styles.swift */,
+				10E883A71E0C52AF004BA14E /* UIStepper+Styles.swift */,
+				10E883A81E0C52AF004BA14E /* UISwitch+Styles.swift */,
+				10E883A91E0C52AF004BA14E /* UITabBar+Styles.swift */,
+				10E883AA1E0C52AF004BA14E /* UITableView+Styles.swift */,
+				10E883AB1E0C52AF004BA14E /* UITableViewCell+Styles.swift */,
+				10E883AC1E0C52AF004BA14E /* UITextField+Styles.swift */,
+				10E883AD1E0C52AF004BA14E /* UITextView+Styles.swift */,
+				10E883AE1E0C52AF004BA14E /* UIToolbar+Styles.swift */,
+				10E883AF1E0C52AF004BA14E /* UIView+Styles.swift */,
 			);
-			name = Generated;
+			path = Generated;
 			sourceTree = "<group>";
 		};
 		10E883951E0C451A004BA14E /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				10E883961E0C452B004BA14E /* Styles */,
+				10E883C61E0C5319004BA14E /* Color.swift */,
+				10E883C71E0C5319004BA14E /* Font.swift */,
 			);
-			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		10E883961E0C452B004BA14E /* Styles */ = {
@@ -81,14 +163,18 @@
 				10E883941E0C450E004BA14E /* Generated */,
 				10E883971E0C4534004BA14E /* Manual */,
 			);
-			name = Styles;
+			path = Styles;
 			sourceTree = "<group>";
 		};
 		10E883971E0C4534004BA14E /* Manual */ = {
 			isa = PBXGroup;
 			children = (
+				10FE89C51E112BB100A501D6 /* UIButton+HandmadeStyles.swift */,
+				10FE89C61E112BB100A501D6 /* UINavigationBar+HandmadeStyles.swift */,
+				10FE89C71E112BB100A501D6 /* UIToolbar+HandmadeStyles.swift */,
+				10FE89C81E112BB100A501D6 /* UIView+HandmadeStyles.swift */,
 			);
-			name = Manual;
+			path = Manual;
 			sourceTree = "<group>";
 		};
 		9836BCCF3E0F952A464A40A9 /* Pods */ = {
@@ -154,6 +240,7 @@
 				TargetAttributes = {
 					107FA1F01E0C393F0059AB48 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -224,6 +311,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E883B31E0C52AF004BA14E /* UICollectionViewCell+Styles.swift in Sources */,
+				10E883B51E0C52AF004BA14E /* UINavigationBar+Styles.swift in Sources */,
+				10E883C51E0C52AF004BA14E /* UIView+Styles.swift in Sources */,
+				10E883C41E0C52AF004BA14E /* UIToolbar+Styles.swift in Sources */,
+				10E883B61E0C52AF004BA14E /* UIPageControl+Styles.swift in Sources */,
+				10E883C81E0C5319004BA14E /* Color.swift in Sources */,
+				10E883B71E0C52AF004BA14E /* UIProgressView+Styles.swift in Sources */,
+				10E883C01E0C52AF004BA14E /* UITableView+Styles.swift in Sources */,
+				10E883BB1E0C52AF004BA14E /* UISegmentedControl+Styles.swift in Sources */,
+				10E883B41E0C52AF004BA14E /* UILabel+Styles.swift in Sources */,
+				10FE89CB1E112BB100A501D6 /* UIToolbar+HandmadeStyles.swift in Sources */,
+				10E883B01E0C52AF004BA14E /* UIActivityIndicatorView+Styles.swift in Sources */,
+				10E883BC1E0C52AF004BA14E /* UISlider+Styles.swift in Sources */,
+				10E883B11E0C52AF004BA14E /* UIButton+Styles.swift in Sources */,
+				10E883BF1E0C52AF004BA14E /* UITabBar+Styles.swift in Sources */,
+				10E883BE1E0C52AF004BA14E /* UISwitch+Styles.swift in Sources */,
+				10E883B91E0C52AF004BA14E /* UIScrollView+Styles.swift in Sources */,
+				10FE89CA1E112BB100A501D6 /* UINavigationBar+HandmadeStyles.swift in Sources */,
+				10FE89CC1E112BB100A501D6 /* UIView+HandmadeStyles.swift in Sources */,
+				10E883B21E0C52AF004BA14E /* UICollectionView+Styles.swift in Sources */,
+				10E883BA1E0C52AF004BA14E /* UISearchBar+Styles.swift in Sources */,
+				10E883C91E0C5319004BA14E /* Font.swift in Sources */,
+				10E883C31E0C52AF004BA14E /* UITextView+Styles.swift in Sources */,
+				10FE89C91E112BB100A501D6 /* UIButton+HandmadeStyles.swift in Sources */,
+				10E883B81E0C52AF004BA14E /* UIRefreshControl+Styles.swift in Sources */,
+				10E883BD1E0C52AF004BA14E /* UIStepper+Styles.swift in Sources */,
+				10E883C11E0C52AF004BA14E /* UITableViewCell+Styles.swift in Sources */,
+				10E883C21E0C52AF004BA14E /* UITextField+Styles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D52C0292044253E29C420CA /* Pods-Freestyler.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -339,6 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cayugasoft.Freestyler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -349,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4CE12ED6ACE5C79F40386CCC /* Pods-Freestyler.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

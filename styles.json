@@ -1,0 +1,542 @@
+{
+	"UIView": [
+		{
+			"property": "transform",
+			"type": "CGAffineTransform"
+		},
+        {
+            "property": "backgroundColor",
+            "type": "Color?"
+        },
+        {
+            "property": "tintColor",
+            "type": "Color?"
+        }
+	],
+    "UILabel": [
+        {
+            "property": "textColor",
+            "type": "Color?"
+        },
+        {
+        	"property": "font",
+        	"type": "Font?"
+        },
+        {
+        	"property": "textAlignment",
+        	"type": "NSTextAlignment"
+        },
+        {
+			"property": "lineBreakMode",
+			"type": "NSLineBreakMode"
+        },
+        {
+        	"property": "adjustsFontSizeToFitWidth",
+        	"type": "Bool"
+        },
+        {
+        	"property": "allowsDefaultTighteningForTruncation",
+        	"type": "Bool"
+        },
+        {
+        	"property": "baselineAdjustment",
+        	"type": "UIBaselineAdjustment"
+        },
+		{
+        	"property": "minimumScaleFactor",
+        	"type": "CGFloat"
+        },
+		{
+			"property": "numberOfLines",
+        	"type": "Int"
+		},
+		{
+			"property": "highlightedTextColor",
+        	"type": "Color?"
+		},
+		{
+			"property": "shadowColor",
+        	"type": "Color"
+		},
+		{
+			"property": "shadowOffset",
+        	"type": "CGSize"
+		},
+		{
+			"property": "preferredMaxLayoutWidth",
+        	"type": "CGFloat"		
+		}
+    ],
+     
+	"UINavigationBar": [
+		{
+			"property": "backIndicatorImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "backIndicatorTransitionMaskImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "barStyle",
+			"type": "UIBarStyle"		
+		},
+		{
+			"property": "barTintColor",
+			"type": "Color?"		
+		},
+		{
+			"property": "shadowImage",
+			"type": "UIImage?"		
+		},
+		{
+			"property": "isTranslucent",
+			"type": "Bool"
+		},
+		{
+			"property": "titleTextAttributes",
+			"type": "[String: AnyObject]?"
+		}
+	],
+	"UIProgressView": [
+		{
+			"property": "progressViewStyle",
+			"type": "UIProgressViewStyle"
+		},
+		{
+			"property": "progressTintColor",
+			"type": "Color?"
+		},
+		{
+			"property": "progressImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "trackTintColor",
+			"type": "Color?"
+		},
+		{
+			"property": "trackImage",
+			"type": "UIImage?"
+		}
+	],
+	"UITabBar": [
+		{
+			"property": "barStyle",
+			"type": "UIBarStyle"
+		},
+		{
+			"property": "isTranslucent",
+			"type": "Bool"
+		},
+		{
+			"property": "barTintColor",
+			"type": "Color?"
+		},
+		{
+			"property": "itemPositioning",
+			"type": "UITabBarItemPositioning"
+		},
+		{
+			"property": "itemSpacing",
+			"type": "CGFloat"
+		},
+		{
+			"property": "itemWidth",
+			"type": "CGFloat"
+		},
+		{
+			"property": "backgroundImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "shadowImage",
+			"type": "UIImage?"
+		},
+		{
+			"property": "selectionIndicatorImage",
+			"type": "UIImage?"
+		}
+	],
+	"UIToolbar": [
+        {
+            "property": "barStyle",
+            "type": "UIBarStyle"
+        },
+        {
+            "property": "isTranslucent",
+            "type": "Bool"
+        },
+        {
+            "property": "barTintColor",
+            "type": "Color?"
+        }
+	],
+    "UIScrollView": [
+        {
+            "property": "indicatorStyle",
+            "type": "UIScrollViewIndicatorStyle"
+        },
+        {
+            "property": "scrollIndicatorInsets",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "showsHorizontalScrollIndicator",
+            "type": "Bool"
+        },
+        {
+            "property": "showsVerticalScrollIndicator",
+            "type": "Bool"
+        },
+        {
+            "property": "bounces",
+            "type": "Bool"
+        },
+        {
+            "property": "alwaysBounceVertical",
+            "type": "Bool"
+        },
+        {
+            "property": "alwaysBounceHorizontal",
+            "type": "Bool"
+        },
+        {
+            "property": "decelerationRate",
+            "type": "CGFloat"
+        },
+        {
+            "property": "contentInset",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "keyboardDismissMode",
+            "type": "UIScrollViewKeyboardDismissMode"
+        }
+    ],
+	"UITableView": [
+        {
+            "property": "rowHeight",
+            "type": "CGFloat"
+        },
+        {
+            "property": "separatorStyle",
+            "type": "UITableViewCellSeparatorStyle"
+        },
+        {
+            "property": "separatorColor",
+            "type": "Color?"
+        },
+        {
+            "property": "separatorEffect",
+            "type": "UIVisualEffect?"
+        },
+        {
+            "property": "backgroundView",
+            "type": "UIView?" 
+        },
+        {
+            "property": "separatorInset",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "cellLayoutMarginsFollowReadableWidth",
+            "type": "Bool"
+        }
+	],
+    "UICollectionView": [
+        {
+            "property": "backgroundView",
+            "type": "UIView?" 
+        }
+    ],
+
+    "UIButton": [
+        {
+            "property": "adjustsImageWhenHighlighted",
+            "type": "Bool"
+        },
+        {
+            "property": "adjustsImageWhenDisabled",
+            "type": "Bool"
+        },
+        {
+            "property": "showsTouchWhenHighlighted",
+            "type": "Bool"
+        },
+        {
+            "property": "contentEdgeInsets",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "titleEdgeInsets",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "imageEdgeInsets",
+            "type": "UIEdgeInsets"
+        },
+        {
+            "property": "reversesTitleShadowWhenHighlighted",
+            "type": "Bool"
+        }
+    ],
+    "UISegmentedControl": [
+
+    ],
+    "UITextField": [
+        {
+            "property": "placeholder",
+            "type": "String?"
+        },
+        {
+            "property": "attributedPlaceholder",
+            "type": "NSAttributedString"
+        },
+        {
+            "property": "defaultTextAttributes",
+            "type": "[String : AnyObject]"
+        },
+        {
+            "property": "font",
+            "type": "Font?"
+        },
+        {
+            "property": "textColor",
+            "type": "Color?"
+        },
+        {
+            "property": "textAlignment",
+            "type": "NSTextAlignment"
+        },
+        {
+            "property": "typingAttributes",
+            "type": "[String : AnyObject]?"
+        },
+        {
+            "property": "adjustsFontSizeToFitWidth",
+            "type": "Bool"
+        },
+        {
+            "property": "minimumFontSize",
+            "type": "CGFloat"
+        },
+        {
+            "property": "borderStyle",
+            "type": "UITextBorderStyle"
+        },
+        {
+            "property": "background",
+            "type": "UIImage?"
+        },
+        {
+            "property": "disabledBackground",
+            "type": "UIImage?"
+        },
+        {
+            "property": "clearButtonMode",
+            "type": "UITextFieldViewMode"
+        },
+        {
+            "property": "leftViewMode",
+            "type": "UITextFieldViewMode"
+        },
+        {
+            "property": "rightViewMode",
+            "type": "UITextFieldViewMode"
+        }
+    ],
+    "UISwitch": [
+        {
+            "property": "onTintColor",
+            "type": "Color?"
+        },
+        {
+            "property": "thumbTintColor",
+            "type": "Color?"
+        },
+        {
+            "property": "onImage",
+            "type": "UIImage?"
+        },
+        {
+            "property": "offImage",
+            "type": "UIImage?"
+        }
+    ],
+    "UITableViewCell": [
+        {
+            "property": "backgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "selectedBackgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "multipleSelectionBackgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "accessoryType",
+            "type": "UITableViewCellAccessoryType"
+        },
+        {
+            "property": "accessoryView",
+            "type": "UIView?"
+        },
+        {
+            "property": "editingAccessoryType",
+            "type": "UITableViewCellAccessoryType"
+        },
+        {
+            "property": "editingAccessoryView",
+            "type": "UIView?"
+        },
+        {
+            "property": "showsReorderControl",
+            "type": "Bool"
+        },
+        {
+            "property": "indentationLevel",
+            "type": "Int"
+        },
+        {
+            "property": "indentationWidth",
+            "type": "CGFloat"
+        },
+        {
+            "property": "shouldIndentWhileEditing",
+            "type": "Bool"
+        },
+        {
+            "property": "separatorInset",
+            "type": "UIEdgeInsets"
+        }
+    ],
+    "UICollectionViewCell": [
+        {
+            "property": "backgroundView",
+            "type": "UIView?"
+        },
+        {
+            "property": "selectedBackgroundView",
+            "type": "UIView?"
+        }
+    ],
+    "UITextView": [
+        {
+            "property": "font",
+            "type": "Font?"
+        },
+        {
+            "property": "textColor",
+            "type": "Color?"
+        },
+        {
+            "property": "isEditable",
+            "type": "Bool"
+        },
+        {
+            "property": "allowsEditingTextAttributes",
+            "type": "Bool"
+        },
+        {
+            "property": "textAlignment",
+            "type": "NSTextAlignment"
+        },
+        {
+            "property": "typingAttributes",
+            "type": "[String : AnyObject]"
+        },
+        {
+            "property": "linkTextAttributes",
+            "type": "[String : AnyObject]?"
+        },
+        {
+            "property": "textContainerInset",
+            "type": "UIEdgeInsets"
+        }
+    ],
+    "UISearchBar": [
+        {
+            "property": "barStyle",
+            "type": "UIBarStyle"
+        },
+        {
+            "property": "isTranslucent",
+            "type": "Bool"
+        },
+        {
+            "property": "barTintColor",
+            "type": "Color?"
+        },
+        {
+            "property": "searchBarStyle",
+            "type": "UISearchBarStyle"
+        },
+        {
+            "property": "placeholder",
+            "type": "String?"
+        },
+        {
+            "property": "prompt",
+            "type": "String?"
+        }
+    ],
+	"UISlider": [
+        {
+            "property": "minimumValueImage",
+            "type": "UIImage?"
+        },
+        {
+            "property": "maximumValueImage",
+            "type": "UIImage?"
+        },
+        {
+            "property": "minimumTrackTintColor",
+            "type": "Color?"
+        },
+        {
+            "property": "maximumTrackTintColor",
+            "type": "Color?"
+        },
+        {
+            "property": "thumbTintColor",
+            "type": "Color?"
+        }
+	],
+    "UIStepper": [
+
+    ],
+	"UIActivityIndicatorView": [
+        {
+            "property": "activityIndicatorViewStyle",
+            "type": "UIActivityIndicatorViewStyle"
+        },
+        {
+            "property": "color",
+            "type": "Color"
+        }
+	],
+    "UIRefreshControl": [
+        {
+            "property": "attributedTitle",
+            "type": "NSAttributedString?"
+        }
+    ],
+	"UIPageControl": [
+        {
+            "property": "pageIndicatorTintColor",
+            "type": "Color?"
+        },
+        {
+            "property": "currentPageIndicatorTintColor",
+            "type": "Color?"  
+        },
+        {
+            "property": "defersCurrentPageDisplay",
+            "type": "Bool"
+        }
+	]
+}
