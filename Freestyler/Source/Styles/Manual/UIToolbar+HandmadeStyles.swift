@@ -17,14 +17,14 @@ public extension UIToolbar {
 //    Returns the image to use for the toolbar shadow in a given position.
 //    func setShadowImage(UIImage?, forToolbarPosition: UIBarPosition)
 //    Sets the image to use for the toolbar shadow in a given position.
-    public static func styleBackgroundImage(image: UIImage?, forBarPosition barPosition: UIBarPosition = .any, barMetrics: UIBarMetrics = .default) -> Style {
+    public static func style(backgroundImage image: UIImage?, forBarPosition barPosition: UIBarPosition = .any, barMetrics: UIBarMetrics = .default) -> Style {
         return Style("Background Image \(image) for bar position \(barPosition), bar metrics \(barMetrics)") {
             (styleable: UIToolbar) in
             styleable.setBackgroundImage(image, forToolbarPosition: barPosition, barMetrics: barMetrics)
         }
     }
     
-    public static func styleShadowImage(image: UIImage?, forBarPosition barPosition: UIBarPosition = .any) -> Style {
+    public static func style(shadowImage image: UIImage?, forBarPosition barPosition: UIBarPosition = .any) -> Style {
         return Style("Shadow Image \(image) for bar position \(barPosition)") {
             (styleable: UIToolbar) in
             styleable.setShadowImage(image, forToolbarPosition: barPosition)

@@ -11,14 +11,14 @@ import FreestylerCore
 
 
 public extension UINavigationBar {
-    public static func styleBackgroundImage(image: UIImage?, forBarPosition barPosition: UIBarPosition = .any, barMetrics: UIBarMetrics = .default) -> Style {
+    public static func style(backgroundImage image: UIImage?, forBarPosition barPosition: UIBarPosition = .any, barMetrics: UIBarMetrics = .default) -> Style {
         return Style("Background Image \(image) for bar position \(barPosition), bar metrics \(barMetrics)") {
             (styleable: UINavigationBar) in
             styleable.setBackgroundImage(image, for: barPosition, barMetrics: barMetrics)
         }
     }
     
-    public static func styleTitleVerticalPositionAdjustment(adjustment: CGFloat, barMetrics: UIBarMetrics) -> Style {
+    public static func style(titleVerticalPositionAdjustment adjustment: CGFloat, barMetrics: UIBarMetrics) -> Style {
         return Style("Title Vertical Position Adjustment \(adjustment) for bar metrics \(barMetrics)") {
             (styleable: UINavigationBar) in
             styleable.setTitleVerticalPositionAdjustment(adjustment, for: barMetrics)

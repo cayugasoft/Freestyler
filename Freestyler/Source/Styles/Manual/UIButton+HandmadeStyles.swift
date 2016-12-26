@@ -11,14 +11,14 @@ import FreestylerCore
 
 
 public extension UIButton {
-    public static func styleTitleColor(color: Color?, forControlState state: UIControlState = .normal) -> Style {
+    public static func style(titleColor color: Color?, forControlState state: UIControlState = .normal) -> Style {
         return Style("Title Color \(color) for state \(state)") {
             (styleable: UIButton) in
             styleable.setTitleColor(color?.color, for: state)
         }
     }
     
-    public static func styleTitleShadowColor(color: Color?, forControlState state: UIControlState = .normal) -> Style {
+    public static func style(titleShadowColor color: Color?, forControlState state: UIControlState = .normal) -> Style {
         return Style("Title Shadow Color \(color) for state \(state)") {
             (styleable: UIButton) in
             styleable.setTitleShadowColor(color?.color, for: state)
@@ -26,14 +26,14 @@ public extension UIButton {
     }
     
     
-    public static func styleBackgroundImage(backgroundImage: UIImage?, forControlState state: UIControlState = .normal) -> Style {
+    public static func style(backgroundImage: UIImage?, forControlState state: UIControlState = .normal) -> Style {
         return Style("Background Image \(backgroundImage) for state \(state)") {
             (styleable: UIButton) in
             styleable.setBackgroundImage(backgroundImage, for: state)
         }
     }
     
-    public static func styleImage(image: UIImage?, forControlState state: UIControlState = .normal) -> Style {
+    public static func style(image: UIImage?, forControlState state: UIControlState = .normal) -> Style {
         return Style("Image \(image) for state \(state)") {
             (styleable: UIButton) in
             styleable.setImage(image, for: state)

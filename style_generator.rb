@@ -7,13 +7,14 @@ def instance_name_from_class(class_name)
 end
 
 def style_name_from_property(property)
-    style_name = ""
-    if property[0..1] == "is" then
-        style_name = property[2].upcase + property[3..-1]
-    else 
-        style_name = property[0].upcase + property[1..-1]
-    end
-    return "style" + style_name
+    # style_name = ""
+    # if property[0..1] == "is" then
+    #     style_name = property[2].upcase + property[3..-1]
+    # else 
+    #     style_name = property[0].upcase + property[1..-1]
+    # end
+    # return "style" + style_name
+    return "style"
 end
 
 def property_assignment(custom_body, instance, keypath, property, property_type) 
