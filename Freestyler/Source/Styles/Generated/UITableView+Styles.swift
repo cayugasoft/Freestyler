@@ -76,6 +76,7 @@ public extension UITableView {
     }
 
     /** Updates `cellLayoutMarginsFollowReadableWidth` property of `UITableView` instance. */
+    @available(iOS 9.0, *)
     public static func style(cellLayoutMarginsFollowReadableWidth: Bool) -> Style {
         return Style("Cell Layout Margins Follow Readable Width \(cellLayoutMarginsFollowReadableWidth)") {
             (styleable: UITableView) in

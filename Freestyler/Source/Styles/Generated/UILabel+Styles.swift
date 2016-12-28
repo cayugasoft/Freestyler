@@ -68,6 +68,7 @@ public extension UILabel {
     }
 
     /** Updates `allowsDefaultTighteningForTruncation` property of `UILabel` instance. */
+    @available(iOS 9.0, *)
     public static func style(allowsDefaultTighteningForTruncation: Bool) -> Style {
         return Style("Allows Default Tightening For Truncation \(allowsDefaultTighteningForTruncation)") {
             (styleable: UILabel) in

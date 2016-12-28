@@ -36,7 +36,8 @@
         },
         {
         	"property": "allowsDefaultTighteningForTruncation",
-        	"type": "Bool"
+        	"type": "Bool",
+            "available": "9.0"
         },
         {
         	"property": "baselineAdjustment",
@@ -241,7 +242,8 @@
         },
         {
             "property": "cellLayoutMarginsFollowReadableWidth",
-            "type": "Bool"
+            "type": "Bool",
+            "available": "9.0"
         }
 	],
     "UICollectionView": [
