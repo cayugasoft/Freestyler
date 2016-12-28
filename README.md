@@ -14,18 +14,22 @@
 
 ## How to use it?
 - Make label text color <span style="color: #f00;">red</span>:
+
     ```swift
     label <~ UILabel.style(textColor: UIColor.red)
     ```
 - Save style to some variable:
+
     ```swift
     let redTextColor = UILabel.style(textColor: UIColor.red)
     ```
 - Apply style above to multiple labels:
+
     ```swift
     [label1, label2] <~ redTextColor
     ```
 - Style which makes text color <span style="color: #0f0;">green</span> and **bold** font:
+
     ```swift
     let greenTextColorAndBoldFont <~ UILabel.style(textColor: UIColor.green) <~ UILabel.style(font: UIFont.boldSystemFont(ofSize: 14.0))
     /// or 
@@ -34,6 +38,7 @@
     let greenTextColorAndBoldFont: Style = [UILabel.style(textColor: UIColor.green), UILabel.style(font: UIFont.boldSystemFont(ofSize: 14.0))]
     ```
 - Application of styles is not commutative, i.e. order matters: 
+
     ```swift
     label <~ [redTextColor, greenTextColorAndBoldFont] 
     // ^ label will be green and bold
@@ -41,12 +46,14 @@
     // ^ label will be red; also bold though
     ```
 - You can apply style of `UIView` to `UILabel` but not vice versa; in general, you can apply style of class to instance of subclass:
+
     ```swift
     label <~ UIView.style(backgroundColor: UIColor.yellow)
     // code below will crash 🔥
     view <~ UILabel.style(textColor: UIColor.red)
     ```
 - Using protocol `Color`, you can create palettes for often encountered colors in your app and give them meaningful name. It will also help to have a central place where all colors located so you can change them across all the app with one line of code:
+
     ```swift
     enum Theme: Color {
         case title
@@ -67,6 +74,7 @@
     label <~ UILabel.style(textColor: Theme.title)
     ```
 - Also the same thing for fonts – `Font` protocol:
+
     ```swift
     enum Typography: Font {
         case big
