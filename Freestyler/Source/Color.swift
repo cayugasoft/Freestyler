@@ -1,6 +1,28 @@
 import UIKit
 
+/** You can use this protocol for color theming of your app. For example, like this:
+ 
+    ```
+    enum Theme: Color {
+        case title
+        case subtitle
+        case background
 
+        var color: UIColor {
+            switch self {
+            case .title: return UIColor.black
+            case .subtitle: return UIColor.lightGray
+            case .background: return UIColor.white
+            }
+        }
+    }
+ 
+    // ... somewhere in code
+ 
+    label <~ UILabel.style(textColor: Theme.title)
+    ```
+    Notice that `UIColor` also conforms to `Color` so for every style expecting `Color` you can pass `UIColor` instance.
+*/
 public protocol Color: CustomStringConvertible {
     var color: UIColor { get }
 }

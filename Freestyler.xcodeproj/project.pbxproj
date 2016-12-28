@@ -41,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		0C8DF9C370A1111F4EAC1EAF /* Pods_Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freestyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1052F9ED1E0C587300D37AC3 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		107FA1F11E0C393F0059AB48 /* Freestyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Freestyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		107FA1F31E0C393F0059AB48 /* Freestyler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Freestyler.h; sourceTree = "<group>"; };
 		107FA1F41E0C393F0059AB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +95,6 @@
 				107FA1F21E0C393F0059AB48 /* Freestyler */,
 				9836BCCF3E0F952A464A40A9 /* Pods */,
 				107FA1CB1E0C38520059AB48 /* Products */,
-				1052F9ED1E0C587300D37AC3 /* Playground.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -363,6 +361,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -413,6 +412,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
