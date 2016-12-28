@@ -1,12 +1,12 @@
 # Freestyler
 
-<!--<p align="center">
+<p align="center">
 <a href="http://cocoapods.org/pods/Freestyler"><img src="https://img.shields.io/cocoapods/v/Freestyler.svg?style=flat"></a>
 <a href="http://cocoapods.org/pods/Freestyler"><img src="https://img.shields.io/cocoapods/l/Freestyler.svg?style=flat"></a>
 <a href="http://cocoapods.org/pods/Freestyler"><img src="https://img.shields.io/cocoapods/p/Freestyler.svg?style=flat"></a>
 <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"></a>
 <a href="http://cayugasoft.com/?utm_source=github"><img src="https://rawgithub.com/cayugasoft/Resources/master/Badges_by_Cayuga/by_Cayuga.svg"></a>
-</p>-->
+</p>
 
 
 ## What is it?
