@@ -4,7 +4,6 @@
 <a href="http://cocoapods.org/pods/Freestyler"><img src="https://img.shields.io/cocoapods/v/Freestyler.svg?style=flat"></a>
 <a href="http://cocoapods.org/pods/Freestyler"><img src="https://img.shields.io/cocoapods/l/Freestyler.svg?style=flat"></a>
 <a href="http://cocoapods.org/pods/Freestyler"><img src="https://img.shields.io/cocoapods/p/Freestyler.svg?style=flat"></a>
-<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"></a>
 <a href="http://cayugasoft.com/?utm_source=github"><img src="https://rawgithub.com/cayugasoft/Resources/master/Badges_by_Cayuga/by_Cayuga.svg"></a>
 </p>
 
@@ -114,17 +113,7 @@
 5. `import Freestyler` in your .swift files.
 
 ### [Carthage](https://github.com/Carthage/Carthage)
-1. Install **Carthage**: i.e. via [Homebrew](http://brew.sh), `brew update && brew install carthage`
-2. Create *Cartfile* in your project directory.
-3. Add in your *Cartfile*:
-	
-	```
-	github "Cayugasoft/Freestyler" ~> 1.0
-	```
-4. Run `carthage update`
-5. On your application targets' **General** settings tab, in the **Linked Frameworks and Libraries** section, drag and drop *Freestyler.framework* from the *Carthage/Build* folder on disk.
-6. On your application targets' **Build Phases** settings tab, click the **+** icon and choose **New Run Script Phase**. Create a Run Script in which you specify your shell (ex: bin/sh), add the following contents to the script area below the shell: `/usr/local/bin/carthage copy-frameworks` and add the path to the *Freestyler.framework* under **Input Files**:`$(SRCROOT)/Carthage/Build/iOS/Freestyler.framework`
-7. `import Freestyler` in your .swift files.
+**Carthage** is currently not supported.
 
 ### Manually
 1. Clone or download *Freestyler*
